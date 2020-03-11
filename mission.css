@@ -1,0 +1,1096 @@
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(Roboto-Medium.ttf);
+}
+
+
+
+
+
+
+#bleu
+{
+	color :#00BFFF;
+	display: flex;
+	justify-content: flex-start;
+	font-family:Roboto-Bold;
+	font-size: 28px;
+}
+
+
+
+
+#blanc
+{
+font-family: Roboto-Bold;
+font-size: 28px;
+color:white;
+}
+
+#blancdeux
+{
+font-family: Roboto-Bold;
+font-size: 28px;
+color:white;
+display: flex;
+align-items: : flex-end;
+
+}
+
+#petitblanc
+{
+font-size: 11px;
+font-family: Roboto-Medium;
+color: white
+
+}
+
+#leure
+{
+  width: 100px;
+
+}
+
+#info
+{
+  color: white;
+  background-color:#00BFFF;
+  border-radius: 3px;
+  height:32px;
+  width:88px;
+  display:flex;
+  justify-content:  center;
+  align-items: center;
+  font-family: Roboto-medium;
+  font-size: 14px;
+  
+  
+}
+
+
+#bouton
+{
+   display: flex;
+   justify-content: space-around;
+   font-family: Roboto-Medium;
+   font-size: 12px;
+   width: 30%;
+   align-items: center;
+
+
+}
+
+#bouton a
+{
+   text-decoration:none;
+   color: grey;
+   border-top:solid white 2px;
+   height: 30px;
+   display:flex;
+   align-items:center;
+   height: 65px;
+
+}
+
+
+#bouton a:hover
+{
+    border-top:solid #00BFFF 2px;
+
+}
+
+
+.image
+{
+	position:absolute;
+	z-index:-2;
+	top:70px;
+
+
+	
+}
+#ecri
+{
+	position:absolute;
+	z-index:-1;
+	top:250px;
+	
+  	
+  	display:flex;
+	justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 500px;
+    margin-left: 135px;
+
+}
+
+#parenthaut
+{
+	display: flex;
+	width:100%;
+	justify-content: center;
+	
+	height: 70px;
+	background-color: white;
+	position: fixed;
+}
+
+#haut
+{
+	display: flex;
+	justify-content: space-between;
+	
+	background-color:white;
+	
+	width: 80%;
+	height: 70px;
+
+}
+
+
+
+body
+{
+	margin:0;
+	overflow-x: hidden;
+}
+
+
+
+#unbox
+{
+	
+
+	height: 543px;
+}
+
+
+
+#deuxbox
+{
+	top: 300px;
+
+}
+
+#rien
+{
+	height : 90px;
+}
+
+#hautrien
+{
+	height: 70px ;
+	width: auto;
+}
+
+#construction
+{
+   display: flex;
+   flex-direction: row;
+   margin-top: -5px;
+}
+#constructiondeux
+{
+   display: flex;
+   flex-direction: row;
+   margin-left: 93PX;
+   margin-top: -10px;
+}
+
+#espace
+{
+	height: 12px;
+}
+
+
+#espacedeux
+{
+	height: 12px;
+}
+
+#espacetrois
+{
+	height: 12px;
+}
+
+
+.boule
+{
+	display: block;
+	background: #00BFFF;
+	border-radius: 50%;
+	height: 12px;
+	width: 12px;
+	margin:0;
+
+}
+
+
+.lignegauche
+{
+	background-color: black;
+	width: 30px;
+	height: 1px;
+	margin-top: 5px;
+}
+
+
+.lignedroite
+{
+	background-color: black;
+	width: 30px;
+	height: 1px;
+	margin-top: 5px;
+}
+
+#Services
+{
+	font-family:Roboto-Bold;
+	font-size: 33px;
+    display: flex;
+	justify-content: center;
+	
+
+}
+
+#latinhautuno
+{
+	 font-family:Roboto-Medium;
+	font-size: 11px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#latinbasuno
+{
+	 font-family:Roboto-Medium;
+	font-size: 11px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#hautdeux
+{
+	display:flex;
+	justify-content: : center;
+	flex-direction: column;
+	align-items: center;
+}
+#interieur
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 300px;
+    
+
+}
+
+#ordi
+{
+	height: auto;
+	display: flex;
+	justify-content: center;
+	width: 40%;
+
+}  
+
+#ordi img
+{
+	width : 68%;
+	height: auto;
+}
+
+#cornerright
+{
+
+	height: 280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 40%;
+}
+
+
+
+.partietextservice
+{
+
+	height: 50px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.grasservice
+{
+    font-family:Roboto-Bold;
+	font-size: 13px;	
+}
+
+
+.noirservice
+{
+    font-family:Roboto-Medium;
+	font-size: 11px;
+
+	
+
+
+}
+
+#intru
+{
+
+    font-family:Roboto-Medium;
+	font-size: 11px;
+	width: 385px;
+	
+}
+
+
+
+#troisbox
+
+{
+	border-color: green;
+	border-width: 20px;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+#riendeux
+{
+	height: 80px;
+}
+
+#vide
+{
+	height: 12px;
+}
+
+#videux
+{
+	height: 28px;
+}
+#Portfolio
+{
+	font-family:Roboto-Bold;
+	font-size: 33px;
+    display: flex;
+	justify-content: center;
+
+
+}
+
+#latun
+{
+	 font-family:Roboto-Medium;
+	font-size: 11px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#latdeux
+{
+	 font-family:Roboto-Medium;
+	font-size: 11px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#hautprojet
+{
+	margin-bottom: 50px;
+}
+
+.boutonmem:hover 
+{
+    background-color:#00BFFF;
+
+
+}
+
+.boutonmem:hover .triangle
+{
+    
+   opacity: 1;
+}
+
+
+
+.boutonmem 
+{
+  color: black;
+  
+  height:30px;
+  width:68px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: #DCDCDC;
+  font-family: Roboto-Medium;
+ }
+
+#boutonprojet
+{
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 30px;
+	align-items: center;
+	font-size: 12px;
+	border-style: solid;
+	margin-top: -10px;
+   
+	
+}
+
+#lestriangles 
+{
+	display:flex;
+	justify-content: space-around;
+	width:272px;
+	height:40px;
+	margin-bottom: 30px;
+}
+
+.triangle
+{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 7px 7px 0 7px;
+	border-color: #007bff transparent transparent transparent;
+	margin-top:21px;
+	position: absolute;
+	
+	opacity: 0;
+
+}
+
+figcaption
+{
+	color: white;
+	font-size: 13px;
+	display: flex;
+	flex-direction: column;
+	height: 47px;
+	width: 208px;
+	justify-content: center;
+	margin-top: -50px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    font-size: 14px;
+    opacity:0;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+#imageprojet
+{
+	display: flex;
+	width: 100%;
+	height : 297px;
+	flex-direction: column;
+	margin-top: 20px;
+
+
+}
+
+.imgproj
+{
+	margin: 0;
+	
+}
+
+.imgproj:hover figcaption
+{
+	opacity: 1;
+}
+
+
+.rankone img
+{
+	width: 208px;
+	height: 135px;
+	
+}
+
+
+.conteneurrankone
+{
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	
+}
+
+.rankone
+{
+	height: 160px;
+	display: flex;	
+	width: 935px;
+	justify-content: space-around;
+
+    
+
+}
+
+
+
+
+
+
+
+	
+#placelesformulaires 
+{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   margin-top: -420px;
+   border: 5px solid yellow;
+   height: 450px;
+}
+#lesformulaires 
+{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 80%;
+	border: 5px solid red;
+
+}
+
+#placefinal
+{
+	border: blue 5px solid;
+	width: auto;
+	height: 400px;
+	background-color: #F0FFFF;
+}
+
+
+
+
+#sendmessage
+{
+  color: white;
+  background-color:#00BFFF;
+  border-radius: 3px;
+  height:32px;
+  width:88px;
+  display:flex;
+  justify-content:  center;
+  align-items: center;
+  font-family: Roboto-medium;
+  font-size: 12px;
+  position:absolute;
+  left: 1062px;
+  top: 350px;
+}
+
+
+#formulaireback
+{
+   
+   background-color: #F0FFFF;
+   width: 310px;
+   height: 70px;
+   border: purple 5px solid;
+
+}
+
+
+
+
+#lestrois
+{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding-left: 15px;
+
+
+}
+ 
+#formulaire form
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   width: 280px;
+   height: 250px;
+   border: 5px solid pink;
+   padding-left: 15px;
+   padding-right: 15px;
+
+
+}
+
+
+#forcontact
+{
+	font-family:Roboto-Bold;
+	font-size: 17px;
+	height: 27px;
+	padding-left: 15px;
+
+
+}
+
+#forgrise
+{
+	font-family: Roboto-Bold;
+	
+	font-size: 11px;
+
+}
+
+.forgris
+{
+	font-family: Roboto-Thin;
+	font-size: 11px;
+
+}
+
+#Message
+{
+	height: 125px;
+	display:flex;
+	align-items: flex-start;
+}
+
+.partial-circle 
+{
+    width: 25px;
+    height: 50px;
+    background-color:black;
+    opacity: 0.38;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    z-index: -1;
+    top:320px;
+
+    
+}
+
+.partial-circled {
+ 	width: 25px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.38;
+    border-top-left-radius: 25px;
+	border-bottom-left-radius:25px;
+    position: absolute;
+    z-index: -1;
+    top:328px;
+    left:1493px;
+}
+
+#fleche {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  border-color:white;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: absolute;
+  top:348px;
+  left:1500px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  position: absolute;
+  top:340px;
+  left:5px;
+}
+#lesarrows 
+{
+	margin:0;
+}
+
+#rientrois
+{
+	height: 178px;
+	width: auto;
+	font-family:Roboto-Bold;
+	font-size: 33px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+@media screen and (max-width: 1024px  )
+{
+	body
+{
+	width : auto;
+}
+	
+    #bouton 
+    {
+    
+    	font-size: 25px;
+    	width: 1100px;
+
+    }
+
+    .image
+    {
+    	width: 100%;
+    }
+
+    .imgproj img
+    {
+    	width:90%;
+    	height:90%;
+    }
+
+    #contacts
+    {
+    	width: 1280px;
+    }
+
+    .right 
+    {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: absolute;
+    top:240px;
+    left:963px;
+	}
+	.partial-circled {
+ 	width: 25px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.38;
+    border-top-left-radius: 25px;
+	border-bottom-left-radius:25px;
+    position: absolute;
+    z-index: -1;
+    top:220px;
+    left:954px;
+	}
+
+
+
+	.partial-circle 
+{
+    width: 25px;
+    height: 50px;
+    background-color:black;
+    opacity: 0.38;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    z-index: -1;
+    top:225px;
+ }
+
+
+ .left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  position: absolute;
+  top:245px;
+  left:5px;
+}
+
+#sendmessage
+{
+  color: white;
+  background-color:#00BFFF;
+  border-radius: 3px;
+  height:32px;
+  width:88px;
+  display:flex;
+  justify-content:  center;
+  align-items: center;
+  font-family: Roboto-medium;
+  font-size: 12px;
+  position:absolute;
+  left: 580px;
+  top: 350px;
+}
+
+#haut
+{ 
+	height: 100px;
+}
+
+#parenthaut
+{ 
+	height: 100px;
+}
+
+#logo
+{
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+
+}
+
+#Accueil
+{ 
+    display: flex;
+}
+ 
+ #ecri
+{
+	top: 175px;
+}
+
+#Services
+{
+   font-size: 80px;
+  
+  
+}
+
+#Portfolio
+{
+	font-size: 80px;
+}
+
+#rientrois
+{
+	font-size: 80px;
+	top: 50px;
+}
+
+#hautrien
+{
+	height:0px;
+}
+
+#hautrien
+{
+  height:0px;
+}
+
+.boule
+{
+	display: block;
+	background: #00BFFF;
+	border-radius: 50%;
+	height: 24px;
+	width: 24px;
+	margin:0;
+
+}
+
+
+.lignegauche
+{
+	background-color: black;
+	width: 60px;
+	height: 2px;
+	margin-top: 10px;
+}
+
+
+.lignedroite
+{
+	background-color: black;
+	width: 60px;
+	height: 2px;
+	margin-top: 10px;
+}
+
+#latinhautuno
+{
+	font-size: 22px;
+}
+
+#latinbasuno
+{
+	font-size: 22px;
+}
+
+#ordi 
+{
+	width: 0px;
+	height: 0px;
+}
+
+#intru
+{
+	font-size: 22px;
+	border: green solid 10px;
+	width: auto;
+}
+
+.noirservice
+{
+	font-size: 22px;
+	border: 10px red solid;
+}
+
+.grasservice
+{
+  font-size: 22px;
+  border: gold 10px solid;
+}
+
+#cornerright
+{
+	border: 10px solid silver;
+	height:700px;
+	width:80%;
+}
+
+#latun
+{
+font-size: 22px;	
+}
+
+#latdeux
+{
+font-size: 22px;	
+}
+
+.boutonmem 
+{
+  height:60px;
+  width:136px;
+  font-size: 24px;
+ }
+
+ .triangle
+{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 14px 14px 0 14px;
+	border-color: #007bff transparent transparent transparent;
+	margin-top:36px;
+	position: absolute;
+	
+	opacity: 0;
+
+}
+
+#interieur
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 1000px;
+}
+
+#constructiondeux
+{
+   margin-left: 220PX;
+}
+
+
+#imageprojet
+{
+	height: 2220px;
+	border: blue solid 5px;
+}
+
+.rankone img
+{
+	width: 416px;
+	height: 270px;
+
+	
+}
+
+.rankone
+{
+	height: auto;
+	display: flex;	
+	width: 935px;
+	justify-content: space-around;
+	flex-direction: column;
+	border: 5px solid red;
+	align-items: center;
+}
+
+.troisservice
+{
+	border:5px green solid;
+}
+
+.partietextservice
+{
+	height:auto;
+}
+
+figcaption
+{
+	color: white;
+	font-size: 26px;
+	display: flex;
+	flex-direction: column;
+	height: 94px;
+	width: 416px;
+	justify-content: center;
+	margin-top: -100px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    font-size: 28px;
+    opacity:0;
+    
+
+}
+
+#placefinal
+{
+
+	border: solid brown 5px;
+}
+
+
+
+
+}
+
+
