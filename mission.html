@@ -3,17 +3,19 @@
 
 <head> 
     <link rel="stylesheet" href="mission.css"/>
-    <link href="/css/all.css" rel="stylesheet">  
+    <link rel="stylesheet" media="screen and ( maw-width: 1280px)" href="mission.css"/>
+    <link href="/css/all.css" rel="stylesheet"> 
     <meta charset="UTF-8" />
+    <script src="https://kit.fontawesome.com/c7626e5502.js" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
-	<div id="unbox">
+	<div id="laccueil">
         <div id="parenthaut">
             <div id="haut">
     		    <div id="logo">
-    			    <img src="images/logo.png">
+    			    <img src="images/logo.png" alt="le logo"/>
     		    </div>
     		
                 <div id="bouton">
@@ -25,13 +27,13 @@
             </div>
         </div>
         <div id="Accueil">
-			<img class=image src="images/fillepeinture.jpg">
+			<img class=image src="images/fillepeinture.jpg"alt="image d'accueil"/>
                 <div id="ecri">
     			   <div id="bleu">
                     WEBAGENCY
                    </div>
             	   <div id="blanc">
-                    :L'AGENCE DE TOUS
+                     : L'AGENCE DE TOUS
                    </div>
             	   <div id="blancdeux">
                     VOS PROJECTS
@@ -62,28 +64,28 @@
         <div id="rectanglenoir">
         </div>
 	</div>
-    <div id="deuxbox">
-         <div id="hautrien">
-         </div>
-         <div id="hautdeux">
-            <div id="rien">
+    <div id="nosservices">
+        <div id="hautrien">
+        </div>
+        <div id="hautdeux">
+        <div id="rien">
                 
-            </div>
-            <div id="Services">
-                NOS SERVICES
-            </div>
-            <div id="espace">
-            </div>
-            <div id="construction">
+        </div>
+        <div id="Services">
+            NOS SERVICES
+        </div>
+        <div id="espace">
+        </div>
+        <div id="construction">
                
-                <div class="lignegauche">
-                </div>
-                 <div class="boule">
-                </div>
-                <div class="lignedroite">
-                </div>
+            <div class="lignegauche">
             </div>
-
+            <div class="boule">
+            </div>
+            <div class="lignedroite">
+            </div>
+        </div>
+    
 
             <div id="espacedeux">
             </div>
@@ -105,43 +107,51 @@
             <div id="cornerright">
                 <div class="troisservice">
                     <div class="boutonservice">
+                        <i  class="fas fa-chart-line"></i>
                     </div>
-                    <div class="partietextservice">   
-                        <div class="grasservice">
-                            UX design
-                        </div>
-                        <div class="noirservice">
-                             La création d'un site simple d'utilisation et accessible à tous grâce <br/>
-                             à un travail qui met en avant l'aspect esthetique ainsi que la fluidité de celui-ci.<br/>
-                             Notre UX designer s'occupera également de toute la face caché du site web, <br/>
-                             qui attira naturellement les clients chez vous.
-                        </div>
+                    <div class="partietextservice">
+                        <div class="surgrasservice">
+                            <div class="grasservice">
+                                UX design
+                            </div>
+                            <div class="noirservice">
+                                 La création d'un site simple d'utilisation et accessible à tous grâce <br/>
+                                 à un travail qui met en avant l'aspect esthetique ainsi que la fluidité de celui-ci.<br/>
+                                 Notre UX designer s'occupera également de toute la face caché du site web, <br/>
+                                 qui attira naturellement les clients chez vous.
+                            </div>
+                        </div>       
                     </div>
                 </div>
                 <div class="troisservice">
                     <div class="boutonservice">
-                        <i class="fas fa-cubes"></i>
+                        <i  class="fas fa-chart-pie"></i>
                     </div>
                     <div class="partietextservice">
-                        <div class="grasservice">
-                            UI design
-                        </div>
-                        <div id="intru">
-                             La création d'un site simple d'utilisation et accessible à tous grâce <br/>
-                             à un travail qui met en avant l'aspect esthetique ainsi que la fluidité de celui-ci.<br/>
-                             Notre UI designer saura mettre tout en oeuvre afin que votre site attire une clientèle recherché.
+                        <div class="surgrasservice">
+                            <div class="grasservice">
+                                UI design
+                            </div>
+                            <div id="intru">
+                                 La création d'un site simple d'utilisation et accessible à tous grâce <br/>
+                                 à un travail qui met en avant l'aspect esthetique ainsi que la fluidité de celui-ci.<br/>
+                                 Notre UI designer saura mettre tout en oeuvre afin que votre site attire une clientèle recherché.
+                            </div>
                         </div>    
                     </div>
                 </div>
                 <div class="troisservice">
                     <div class="boutonservice">
+                        <i  class="fas fa-cubes"></i>
                     </div>
                      <div class="partietextservice">
-                        <div class="grasservice">
-                            SEO
-                        </div>
-                        <div class="noirservice">
-                             L'art de mettre votre site en top des listes. 
+                        <div class="surgraseservice">
+                            <div class="grasservice">
+                                SEO
+                            </div>
+                            <div class="noirservice">
+                                 L'art de mettre votre site en top des listes. 
+                            </div>
                         </div> 
                     </div>                           
                 </div>
@@ -153,7 +163,7 @@
         </div>
 
     </div>
-    <div id="troisbox">
+    <div id="nosprojects">
         <div id="hautprojet">
             <div id="riendeux" >
                 
@@ -209,29 +219,35 @@
                         <figure class="imgproj">
                             <img src="images/01.jpg">
                                 <figcaption> <b>
-                                Recueil 1</b>
-                                            Lorem Ipsum Dolor Sit
-                                </figcaption>    
-                        </figure> 
+                                 L'opticien aux petits soins</b>
+                                 <i  class="fas fa-eye"></i>
+                                </figcaption>
+                            </img>    
+                        </figure>
                         <figure class="imgproj">
                             <img src="images/02.jpg">
-                                <figcaption> <b>Recueil 2</b>
-                                            Lorem Ipsum Dolor Sit
-                                </figcaption>    
+                                <figcaption> <b>Your Game is not over yet</b>
+                                    <i  class="fas fa-eye"></i>
+                                </figcaption>
+                                
+                            </img>  
                         </figure>
                         <figure class="imgproj">
                             <img src="images/03.jpg">
                                 <figcaption> <b>
-                                Recueil 3</b>
-                                            Lorem Ipsum Dolor Sit
-                                </figcaption>    
+                                La peinture dans sa culture</b>
+                                 <i  class="fas fa-eye"></i>
+                                </figcaption>
+                               
+                            </img>   
                         </figure>
                         <figure class="imgproj">
                             <img src="images/04.jpg">
                                 <figcaption> <b>
-                                Recueil 4</b>
-                                            Lorem Ipsum Dolor Sit
-                                </figcaption>    
+                                L'agent indétronable</b>
+                                <i  class="fas fa-eye"></i>
+                                </figcaption> 
+                            </img> 
                         </figure> 
                 </div>
             </div>
@@ -240,35 +256,43 @@
                     <figure class="imgproj">
                         <img src="images/05.jpg">
                             <figcaption> <b>
-                            Recueil 5 </b>
-                                        Lorem Ipsum Dolor Sit
-                            </figcaption>    
+                            Ton shoppping démentiel </b>
+                            <i  class="fas fa-eye"></i>
+                            </figcaption>
+                            
+                        </img>   
                     </figure> 
                     <figure class="imgproj">
                         <img src="images/06.jpg">
                             <figcaption> <b>
-                            Recueil 6</b>
-                                        Lorem Ipsum Dolor Sit
-                            </figcaption>    
+                            Un monde téléphoné</b>
+                            <i  class="fas fa-eye"></i>
+                            </figcaption>
+                            
+                        </img>
                     </figure>
                     <figure class="imgproj">
                         <img src="images/07.jpg">
                             <figcaption> <b>
-                            Recueil 7</b>
-                                        Lorem Ipsum Dolor Sit
-                            </figcaption>    
+                            Le piston et son pigeon</b>
+                            <i  class="fas fa-eye"></i>
+                            </figcaption>
+                            
+                        </img>       
                     </figure>
                     <figure class="imgproj">
                         <img src="images/08.jpg">
-                            <figcaption> <b>Recueil 8</b> 
-                                        Lorem Ipsum Dolor Sit
-                            </figcaption>    
+                            <figcaption> <b> Le ménage et ses règles</b>
+                            <i  class="fas fa-eye"></i>
+                            </figcaption>
+                            
+                        </img>   
                     </figure>    
                 </div>
             </div>                                                                          
         </div>
     </div>
-    <div id="quatrebox">
+    <div id="nouscontacter">
         <div id="rientroisdessus">
         </div>
         <div id="rientrois">
