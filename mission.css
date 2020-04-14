@@ -15,8 +15,109 @@
 
 
 
+body
+{
+	margin:0;
+	overflow-x: hidden;
+}
 
 
+
+#laccueil
+{
+	height: 620px;
+}
+
+
+#parenthaut
+{
+	display: flex;
+	width:100%;
+	justify-content: center;
+	
+	height: 70px;
+	background-color: white;
+	position: fixed;
+	top:0px;
+}
+
+#haut
+{
+	display: flex;
+	justify-content: space-between;
+	
+	background-color:white;
+	
+	width: 80%;
+	height: 70px;
+
+}
+
+
+#bouton
+{
+   display: flex;
+   justify-content: space-around;
+   font-family: Roboto-Medium;
+   font-size: 12px;
+   width: 30%;
+   align-items: center;
+
+
+}
+
+#bouton a
+{
+   text-decoration:none;
+   color: grey;
+   border-top:solid white 2px;
+   height: 30px;
+   display:flex;
+   align-items:center;
+   height: 65px;
+
+}
+
+
+#bouton a:hover
+{
+    border-top:solid #00BFFF 2px;
+
+}
+
+#rientrois
+{
+	height: 178px;
+	width: auto;
+	font-family:Roboto-Bold;
+	font-size: 33px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image
+{
+	position:absolute;
+	z-index:-2;
+	top:70px;
+}
+
+#ecri
+{
+	position:absolute;
+	z-index:-1;
+	top:250px;
+	
+  	
+  	display:flex;
+	justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 500px;
+    margin-left: 135px;
+}
 
 #bleu
 {
@@ -81,109 +182,92 @@ color: white
   
 }
 
-#bouton
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.partial-circle 
 {
-   display: flex;
-   justify-content: space-around;
-   font-family: Roboto-Medium;
-   font-size: 12px;
-   width: 30%;
-   align-items: center;
+    width: 25px;
+    height: 50px;
+    background-color:black;
+    opacity: 0.38;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    z-index: -1;
+    top:320px;
 
-
-}
-
-#bouton a
-{
-   text-decoration:none;
-   color: grey;
-   border-top:solid white 2px;
-   height: 30px;
-   display:flex;
-   align-items:center;
-   height: 65px;
-
-}
-
-
-#bouton a:hover
-{
-    border-top:solid #00BFFF 2px;
-
-}
-
-
-.image
-{
-	position:absolute;
-	z-index:-2;
-	top:70px;
-
-
-	
-}
-#ecri
-{
-	position:absolute;
-	z-index:-1;
-	top:250px;
-	
-  	
-  	display:flex;
-	justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 150px;
-    width: 500px;
-    margin-left: 135px;
-}
-
-#parenthaut
-{
-	display: flex;
-	width:100%;
-	justify-content: center;
-	
-	height: 70px;
-	background-color: white;
-	position: fixed;
-	top:0px;
-}
-
-#haut
-{
-	display: flex;
-	justify-content: space-between;
-	
-	background-color:white;
-	
-	width: 80%;
-	height: 70px;
-
+    
 }
 
 
+.partial-circled {
+ 	width: 25px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.38;
+    border-top-left-radius: 25px;
+	border-bottom-left-radius:25px;
+    position: absolute;
+    z-index: -1;
+    top:328px;
+    left:1493px;
+}
 
-body
+#lesarrows 
 {
 	margin:0;
-	overflow-x: hidden;
+}
+
+#fleche {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  border-color:white;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  position: absolute;
+  top:348px;
+  left:1500px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  position: absolute;
+  top:340px;
+  left:5px;
 }
 
 
 
-#laccueil
+
+
+
+#hautdeux
 {
-	
-
-	height: 543px;
-}
-
-
-
-#deuxiemepartie
-{
-	top: 300px;
+	display:flex;
+	justify-content: : center;
+	flex-direction: column;
+	align-items: center;
 }
 
 #rien
@@ -191,10 +275,19 @@ body
 	height : 90px;
 }
 
-#hautrien
+#Services
 {
-	height: 70px ;
-	width: auto;
+	font-family:Roboto-Bold;
+	font-size: 33px;
+    display: flex;
+	justify-content: center;
+	
+
+}
+
+#espace
+{
+	height: 15px;
 }
 
 #construction
@@ -203,27 +296,13 @@ body
    flex-direction: row;
    margin-top: -5px;
 }
-#constructiondeux
-{
-   display: flex;
-   flex-direction: row;
-   margin-left: 720px;
-   margin-top: -10px;
-}
 
-#espace
+.lignegauche
 {
-	height: 12px;
-}
-
-#espacedeux
-{
-	height: 12px;
-}
-
-#espacetrois
-{
-	height: 12px;
+	background-color: black;
+	width: 30px;
+	height: 1px;
+	margin-top: 5px;
 }
 
 
@@ -238,16 +317,6 @@ body
 
 }
 
-
-.lignegauche
-{
-	background-color: black;
-	width: 30px;
-	height: 1px;
-	margin-top: 5px;
-}
-
-
 .lignedroite
 {
 	background-color: black;
@@ -256,15 +325,12 @@ body
 	margin-top: 5px;
 }
 
-#Services
+#espacedeux
 {
-	font-family:Roboto-Bold;
-	font-size: 33px;
-    display: flex;
-	justify-content: center;
-	
-
+	height: 12px;
 }
+
+
 
 #latinhautuno
 {
@@ -284,13 +350,7 @@ body
 	
 }
 
-#hautdeux
-{
-	display:flex;
-	justify-content: : center;
-	flex-direction: column;
-	align-items: center;
-}
+
 #interieur
 {
 	display: flex;
@@ -323,10 +383,28 @@ body
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	width: 40%;
+	width: 550px;
+
 }
 
+.troisservice
+{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	width:430px;
+	
+}
 
+.boutonservice i
+{
+	font-size: 22px;
+	color: #007bff;
+  	border-radius:50%;
+  	border: black solid 1px;
+  	padding:5px;
+
+}
 
 .partietextservice
 {
@@ -367,8 +445,7 @@ body
 }
 
 
-
-#troisiemebox
+#nosprojects
 
 {
 	border-color: green;
@@ -378,20 +455,17 @@ body
 	align-items: center;
 }
 
+#hautprojet
+{
+	margin-bottom: 50px;
+}
+
+
 #riendeux
 {
 	height: 80px;
 }
 
-#vide
-{
-	height: 12px;
-}
-
-#videux
-{
-	height: 28px;
-}
 #Portfolio
 {
 	font-family:Roboto-Bold;
@@ -400,6 +474,23 @@ body
 	justify-content: center;
 
 
+}
+
+#vide
+{
+	height: 12px;
+}
+
+#constructiondeux
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+#espacetrois
+{
+	height: 12px;
 }
 
 #latun
@@ -420,25 +511,17 @@ body
 	
 }
 
-#hautprojet
+#boutonprojet
 {
-	margin-bottom: 50px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 30px;
+	align-items: center;
+	font-size: 12px;
+	margin-top: -10px;	
 }
-
-.boutonmem:hover 
-{
-    background-color:#007bff;
-
-
-}
-
-.boutonmem:hover .triangle
-{
-    
-   opacity: 1;
-}
-
-
 
 .boutonmem 
 {
@@ -452,28 +535,21 @@ body
   
   background-color: #DCDCDC;
   font-family: Roboto-Medium;
- }
-
-#boutonprojet
-{
-	
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	height: 30px;
-	align-items: center;
-	font-size: 12px;
-	margin-top: -10px;	
 }
 
-#lestriangles 
+ .boutonmem:hover 
 {
-	display:flex;
-	justify-content: space-around;
-	width:272px;
-	height:40px;
-	margin-bottom: 30px;
+    background-color:#007bff;
+
+
 }
+
+.boutonmem:hover .triangle
+{
+    
+   opacity: 1;
+}
+
 
 .triangle
 {
@@ -485,7 +561,12 @@ body
 	margin-top:19px;
 	position: absolute;
 	opacity: 0;
+}
 
+
+#videux
+{
+	height: 28px;
 }
 
 #imageprojet
@@ -499,6 +580,33 @@ body
 
 }
 
+
+.conteneurrankone
+{
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	
+}
+
+.rankone
+{
+	height: 160px;
+	display: flex;	
+	width: 935px;
+	justify-content: space-around;
+
+    
+
+}
+
+.rankone img
+{
+	width: 208px;
+	height: 135px;
+	
+}
+
 .imgproj
 {
 	margin: 0;
@@ -508,6 +616,18 @@ body
 .imgproj:hover figcaption 
 {
 	opacity: 1;
+}
+
+
+
+
+
+#img i 
+{
+	color: #007bff;
+	opacity: 0;
+	font-size: 22px;
+	margin-left: 2000px;
 }
 
 figcaption
@@ -543,32 +663,7 @@ figcaption i
 }
 
 
-.rankone img
-{
-	width: 208px;
-	height: 135px;
-	
-}
 
-
-.conteneurrankone
-{
-	width: 100%;
-	justify-content: center;
-	display: flex;
-	
-}
-
-.rankone
-{
-	height: 160px;
-	display: flex;	
-	width: 935px;
-	justify-content: space-around;
-
-    
-
-}
 
 
 
@@ -579,11 +674,10 @@ figcaption i
 	
 #placelesformulaires 
 {
-   width: 100%;
+   width: 1500px;
    display: flex;
-   justify-content: center;
    position: absolute;
-   margin-top: -420px;
+   margin-top: -400px;
    height: 450px;
 }
 #lesformulaires 
@@ -602,33 +696,22 @@ figcaption i
 	background-color: #F0FFFF;
 }
 
-
-
-
-#sendmessage
-{
-  color: white;
-  background-color:#00BFFF;
-  border-radius: 3px;
-  height:32px;
-  width:88px;
-  display:flex;
-  justify-content:  center;
-  align-items: center;
-  font-family: Roboto-medium;
-  font-size: 12px;
-  position:absolute;
-  left: 1062px;
-  top: 350px;
-}
-
-
 #formulaireback
 {
    
    background-color: #F0FFFF;
    width: 310px;
    height: 70px;
+
+}
+
+#forcontact
+{
+	font-family:Roboto-Bold;
+	font-size: 17px;
+	height: 27px;
+	padding-left: 15px;
+
 
 }
 
@@ -641,30 +724,6 @@ figcaption i
   justify-content: flex-end;
   flex-direction: column;
   padding-left: 15px;
-
-
-}
- 
-#formulaire form
-{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   width: 280px;
-   height: 250px;
-   padding-left: 15px;
-   padding-right: 15px;
-
-
-}
-
-
-#forcontact
-{
-	font-family:Roboto-Bold;
-	font-size: 17px;
-	height: 27px;
-	padding-left: 15px;
 
 
 }
@@ -683,185 +742,26 @@ figcaption i
 	font-size: 11px;
 
 }
+ 
+#formulaire form
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   width: 280px;
+   height: 250px;
+   padding-left: 15px;
+   padding-right: 15px;
+
+
+}
+
 
 #Message
 {
 	height: 125px;
 	display:flex;
 	align-items: flex-start;
-}
-
-.partial-circle 
-{
-    width: 25px;
-    height: 50px;
-    background-color:black;
-    opacity: 0.38;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
-    position: absolute;
-    z-index: -1;
-    top:320px;
-
-    
-}
-
-
-.partial-circled {
- 	width: 25px;
-    height: 50px;
-    background-color: black;
-    opacity: 0.38;
-    border-top-left-radius: 25px;
-	border-bottom-left-radius:25px;
-    position: absolute;
-    z-index: -1;
-    top:328px;
-    left:1493px;
-}
-
-#fleche {
-  border: solid black;
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 5px;
-  border-color:white;
-}
-
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  position: absolute;
-  top:348px;
-  left:1500px;
-}
-
-.left {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-  position: absolute;
-  top:340px;
-  left:5px;
-}
-#lesarrows 
-{
-	margin:0;
-}
-
-#rientrois
-{
-	height: 178px;
-	width: auto;
-	font-family:Roboto-Bold;
-	font-size: 33px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.boutonservice i
-{
-	font-size: 22px;
-	color: #007bff;
-  	border-radius:50%;
-  	border: black solid 1px;
-  	padding:5px;
-
-}
-
-.troisservice
-{
-	display: flex;
-	align-items: center;
-	justify-content:space-between;
-	width:430px;
-}
-
-#img i 
-{
-	color: #007bff;
-	opacity: 0;
-	font-size: 22px;
-	margin-left: 2000px;
-}
-
-
-
-@media screen and (max-width: 1024px  )
-{
-	body
-{
-	width : auto;
-	overflow-x: hidden;
-}
-	
-    #bouton 
-    {
-    
-    	font-size: 30px;
-    	width: 65%;
-
-    }
-
-    .image
-    {
-    	width: 100%;
-    }
-
-    .imgproj img
-    {
-    	width:90%;
-    	height:90%;
-    }
-
-    #contacts
-    {
-    	width: 1280px;
-    }
-
-    .right 
-    {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    position: absolute;
-    top:240px;
-    left:963px;
-	}
-	.partial-circled {
- 	width: 25px;
-    height: 50px;
-    background-color: black;
-    opacity: 0.38;
-    border-top-left-radius: 25px;
-	border-bottom-left-radius:25px;
-    position: absolute;
-    z-index: -1;
-    top:220px;
-    left:954px;
-	}
-
-
-
-	.partial-circle 
-{
-    width: 25px;
-    height: 50px;
-    background-color:black;
-    opacity: 0.38;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
-    position: absolute;
-    z-index: -1;
-    top:225px;
- }
-
-
- .left {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-  position: absolute;
-  top:245px;
-  left:5px;
 }
 
 #sendmessage
@@ -876,65 +776,164 @@ figcaption i
   align-items: center;
   font-family: Roboto-medium;
   font-size: 12px;
-  position:absolute;
-  left: 580px;
-  top: 350px;
+  margin-left: 15px;
 }
 
-#haut
-{ 
-	height: 100px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px  )
+{
+	body
+{
+	width : 100%;
+	overflow-x: hidden;
+}
+
+#laccueil
+{
+	
+	width:100%;
+	height: 450px;
 }
 
 #parenthaut
 { 
-	height: 100px;
+	height: auto;
+	width:auto;
+	border: solid red;
+}
+
+#haut
+{ 
+	display:flex;
+	flex-direction:column;
+	width:auto;
+	height:auto;
+	border:solid green;
 }
 
 #logo
 {
-  font-size: 100px;
   display: flex;
   align-items: center;
 
 }
 
-#Accueil
-{ 
-    display: flex;
+#bouton
+{
+   display: flex;
+   justify-content: space-around;
+   font-family: Roboto-Medium;
+   font-size: 30px;
+   width: 100%;
+   align-items: center;
 }
- 
+
+#bouton a
+{
+	font-size: 30PX.
+}
+
+.image
+   {
+      width: 100%;
+   }   
+
  #ecri
 {
 	top: 175px;
 }
 
+
+#petitblanc
+{
+font-size: 24px;
+font-family: Roboto-Medium;
+color: white;
+
+}
+
+#info
+{
+  color: white;
+  background-color:#00BFFF;
+  border-radius: 3px;
+  height:32px;
+  width:88px;
+  display:flex;
+  justify-content:  center;
+  align-items: center;
+  font-family: Roboto-medium;
+  font-size: 14px;
+  position: absolute;
+  z-index: -2;
+  left: 135px;
+  top: 340px;
+  
+  
+}
+
+.partial-circle 
+{
+    width: 25px;
+    height: 50px;
+    background-color:black;
+    opacity: 0.38;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    z-index: -1;
+    top:225px;
+ }
+
+
+.partial-circled {
+ 	width: 25px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.38;
+    border-top-left-radius: 25px;
+	border-bottom-left-radius:25px;
+    position: absolute;
+    z-index: -1;
+    top:220px;
+    left:954px;
+	}
+
+
+ .left 
+ {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  position: absolute;
+  top:245px;
+  left:5px;
+}
+
+ .right 
+    {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: absolute;
+    top:240px;
+    left:963px;
+	}
+	
+
 #Services
 {
    font-size: 80px;
-  
-  
-}
-
-#Portfolio
-{
-	font-size: 80px;
-}
-
-#rientrois
-{
-	font-size: 80px;
-	top: 50px;
-}
-
-#hautrien
-{
-	height:0px;
-}
-
-#hautrien
-{
-  height:0px;
 }
 
 .boule
@@ -947,6 +946,110 @@ figcaption i
 	margin:0;
 
 }
+
+#latinhautuno
+{
+	 font-family:Roboto-Medium;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#latinbasuno
+{
+	 font-family:Roboto-Medium;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#interieur
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 2700px;
+	
+}
+
+#ordi 
+{
+	width: 0px;
+	height: 0px;
+}
+
+#cornerright
+{
+
+	height: 2700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+
+}
+
+.troisservice
+{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	width:430px;
+	
+}
+
+.partietextservice
+{
+	height:auto;
+	border: solid 5px green;
+}
+
+
+.boutonservice i
+{
+	font-size: 55px;
+	color: #007bff;
+	padding: 20px;
+	border: 5px solid yellow;
+}
+ 
+
+
+
+
+.surgraseservice
+{
+ 
+  width: 785px;	
+}
+
+
+.grasservice
+{
+  font-size: 44px;
+}
+
+
+.noirservice
+{
+	font-size: 35px;
+}
+
+#intru
+{
+	font-size: 35px;
+	width: auto;
+}
+
+
+#Portfolio
+{
+	font-size: 80px;
+}
+
 
 
 .lignegauche
@@ -964,44 +1067,6 @@ figcaption i
 	width: 60px;
 	height: 2px;
 	margin-top: 10px;
-}
-
-#latinhautuno
-{
-	font-size: 22px;
-}
-
-#latinbasuno
-{
-	font-size: 22px;
-}
-
-#ordi 
-{
-	width: 0px;
-	height: 0px;
-}
-
-#intru
-{
-	font-size: 35px;
-	width: auto;
-}
-
-.noirservice
-{
-	font-size: 35px;
-}
-
-.grasservice
-{
-  font-size: 44px;
-}
-
-#cornerright
-{
-	height:1500px;
-	width:80%;
 }
 
 #latun
@@ -1032,35 +1097,15 @@ font-size: 30px;
 	position: absolute;
 	
 	opacity: 0;
-
 }
-
-#interieur
-{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 1700px;
-}
-
-#constructiondeux
-{
-   margin-left: 410px;
-}
-
 
 #imageprojet
 {
-	height: 2220px;
+	height: auto;
 }
 
-.rankone img
-{
-	width: 416px;
-	height: 270px;
 
-	
-}
+
 
 .rankone
 {
@@ -1072,46 +1117,108 @@ font-size: 30px;
 	align-items: center;
 }
 
-.partietextservice
+.rankone img
 {
-	height:auto;
+	width: 416px;
+	height: 270px;
+
+	
 }
 
-figcaption
+.imgproj img
+    {
+    	width:90%;
+    	height:90%;
+    }
+
+ figcaption
 {
 	color: white;
 	font-size: 26px;
 	display: flex;
 	flex-direction: column;
 	height: 94px;
-	width: 416px;
-	justify-content: center;
+	width: 540px;
+	justify-content: space-around;
 	margin-top: -100px;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     font-size: 28px;
-    opacity:0;
+    opacity: 1;
 }
 
+figcaption b
+{
+	margin-top:-35px;
+}
 
 figcaption i
 {
 
-	width:15px;
-	height:13px;
+	width:45px;
+	height:40px;
 	color: white;
 	border-radius: 50%;
-	padding: 5px;
+	padding: 7px;
 	border: white solid 1px;
-	margin-top: -50px;
-	font-size: 13px;
+	margin-top: -230px;
+	margin-left:400px;
+	font-size: 40px;
 	background-color: #007bff;
 }
+
+
+#nouscontacter
+{
+	height: auto;
+}
+
+#rientrois
+{
+	font-size: 80px;
+	top: 50px;
+}
+
+iframe
+    
+{
+  width: 1280px;
+  margin-top: 1200px;
+  height:  600px;
+}
+
+#placelesformulaires
+
+{
+   background-color: grey;
+}
+
+#lesformulaires 
+{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+
+}
+
 #placefinal
 {
 	width: 70%;
-	height:100%;
+	height:2000px;
 	align-items: center;
+	margin-top:-500px;
+	background-color: grey;
+	
+}
+
+
+#formulaireback
+{
+   
+   background-color: grey;
+   width: 90%;
+   height: 70px;
 }
 
 #formulaire form
@@ -1123,25 +1230,6 @@ figcaption i
    height: 250px;
    padding-left: 15px;
    padding-right: 15px;
-
-
-}
-
-
-#formulaireback
-{
-   
-   background-color: #F0FFFF;
-   width: 90%;
-   height: 70px;
-}
-
-#petitblanc
-{
-font-size: 24px;
-font-family: Roboto-Medium;
-color: white;
-
 }
 
 
@@ -1158,79 +1246,10 @@ color: white;
   font-family: Roboto-medium;
   font-size: 12px;
   position:absolute;
-  top: 350px;
-  left: 350px;
+  top: -170px;
+  left: 0px;
 
 }
-
-#premierepartie
-{
-	
-
-	height: 450px;
-}
-
-#info
-{
-  color: white;
-  background-color:#00BFFF;
-  border-radius: 3px;
-  height:32px;
-  width:88px;
-  display:flex;
-  justify-content:  center;
-  align-items: center;
-  font-family: Roboto-medium;
-  font-size: 14px;
-  position: absolute;
-  z-index: -2;
-  left: 135px;
-  top: 340px;
-  
-  
-}
-
-.surgraseservice
-{
- 
-  width: 785px;	
-}
-
-
-#latinhautuno
-{
-	 font-family:Roboto-Medium;
-	font-size: 30px;
-	display: flex;
-	justify-content: center;
-	
-}
-
-#latinbasuno
-{
-	 font-family:Roboto-Medium;
-	font-size: 30px;
-	display: flex;
-	justify-content: center;
-	
-}
-.boutonservice i
-{
-	font-size: 88px;
-	color: #007bff;
-	padding: 20px;
-}
-
-#cornerright
-{
-
-	height: 280px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	width: 40%;
-}
-
 
 
 
