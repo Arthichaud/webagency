@@ -21,15 +21,15 @@ body
 	overflow-x: hidden;
 }
 
+/* 1ère partie ( avec la barre défilante + l'image d'accueil) */ 
 
-
-#laccueil
+#Accueil
 {
-	height: 620px;
+	height: 550px;
 }
 
 
-#parenthaut
+#parentbarre
 {
 	display: flex;
 	width:100%;
@@ -41,7 +41,7 @@ body
 	top:0px;
 }
 
-#haut
+#barre
 {
 	display: flex;
 	justify-content: space-between;
@@ -50,11 +50,9 @@ body
 	
 	width: 80%;
 	height: 70px;
-
 }
 
-
-#bouton
+#bouton_accueil
 {
    display: flex;
    justify-content: space-around;
@@ -62,11 +60,9 @@ body
    font-size: 12px;
    width: 30%;
    align-items: center;
-
-
 }
 
-#bouton a
+#bouton_accueil a
 {
    text-decoration:none;
    color: grey;
@@ -79,22 +75,13 @@ body
 }
 
 
-#bouton a:hover
+#bouton_accueil a:hover
 {
     border-top:solid #00BFFF 2px;
 
 }
 
-#rientrois
-{
-	height: 178px;
-	width: auto;
-	font-family:Roboto-Bold;
-	font-size: 33px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+
 
 .image
 {
@@ -103,23 +90,22 @@ body
 	top:70px;
 }
 
-#ecri
+#ecrituresdela_photo
 {
 	position:absolute;
 	z-index:-1;
 	top:250px;
-	
-  	
-  	display:flex;
+	display:flex;
 	justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     height: 150px;
     width: 500px;
     margin-left: 135px;
+    border: yellow solid 5px;
 }
 
-#bleu
+#webagency
 {
 	color :#00BFFF;
 	display: flex;
@@ -131,14 +117,15 @@ body
 
 
 
-#blanc
+#lagencedetous
 {
 font-family: Roboto-Bold;
 font-size: 28px;
 color:white;
 }
 
-#blancdeux
+
+#vosprojects
 {
 font-family: Roboto-Bold;
 font-size: 28px;
@@ -148,21 +135,20 @@ align-items: : flex-end;
 
 }
 
-#petitblanc
+#vousavezunproject
 {
 font-size: 11px;
 font-family: Roboto-Medium;
 color: white
-
 }
 
-#leure
+#petitespacevide
 {
   width: 100px;
 
 }
 
-#info
+#boutoninfo
 {
   color: white;
   background-color:#00BFFF;
@@ -174,30 +160,9 @@ color: white
   align-items: center;
   font-family: Roboto-medium;
   font-size: 14px;
-  position: absolute;
+  position: static;
   z-index: -2;
-  left: 135px;
-  top: 420px;
-  
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .partial-circle 
 {
@@ -228,7 +193,7 @@ color: white
     left:1493px;
 }
 
-#lesarrows 
+#boutonfleche
 {
 	margin:0;
 }
@@ -259,10 +224,10 @@ color: white
 
 
 
+/* 2ème partie ( avec la photo de l'ordinateur + la description  des compétences des professionelles) */
 
 
-
-#hautdeux
+#partietitreservice
 {
 	display:flex;
 	justify-content: : center;
@@ -275,17 +240,15 @@ color: white
 	height : 90px;
 }
 
-#Services
+#Servicestitre
 {
 	font-family:Roboto-Bold;
 	font-size: 33px;
     display: flex;
 	justify-content: center;
-	
-
 }
 
-#espace
+#espacetitre_construction
 {
 	height: 15px;
 }
@@ -297,7 +260,7 @@ color: white
    margin-top: -5px;
 }
 
-.lignegauche
+.lignegauchedelaboule
 {
 	background-color: black;
 	width: 30px;
@@ -306,7 +269,7 @@ color: white
 }
 
 
-.boule
+.boulebleuclaire
 {
 	display: block;
 	background: #00BFFF;
@@ -317,7 +280,7 @@ color: white
 
 }
 
-.lignedroite
+.lignedroitedelaboule
 {
 	background-color: black;
 	width: 30px;
@@ -444,6 +407,8 @@ color: white
 	width: 385px;	
 }
 
+/* 3ème partie ( avec les quatres boutons + tout les exemples des travaux des professionelles ) */
+
 
 #nosprojects
 
@@ -558,7 +523,7 @@ color: white
 	border-style: solid;
 	border-width: 7px 7px 0 7px;
 	border-color: #007bff transparent transparent transparent;
-	margin-top:19px;
+	margin-top:17px;
 	position: absolute;
 	opacity: 0;
 }
@@ -666,11 +631,20 @@ figcaption i
 
 
 
+/* 4ème partie ( avec le formulaire + la carte ) */
 
 
 
-
-
+#lienjusqua_lacarte
+{
+	height: 178px;
+	width: auto;
+	font-family:Roboto-Bold;
+	font-size: 33px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 	
 #placelesformulaires 
 {
@@ -752,8 +726,6 @@ figcaption i
    height: 250px;
    padding-left: 15px;
    padding-right: 15px;
-
-
 }
 
 
@@ -800,37 +772,40 @@ figcaption i
 	overflow-x: hidden;
 }
 
-#laccueil
+/* 1ère partie des medias queries ( avec la barre défilante + l'image d'accueil)  */ 
+
+#Accueil
 {
 	
 	width:100%;
-	height: 450px;
+	height: 750px;
 }
 
-#parenthaut
+#parentbarre
 { 
 	height: auto;
-	width:auto;
+	width: 100%;
 	border: solid red;
 }
 
-#haut
+#barre
 { 
 	display:flex;
-	flex-direction:column;
-	width:auto;
+	width:100%;
 	height:auto;
-	border:solid green;
+	flex-direction: column;
 }
 
 #logo
 {
   display: flex;
   align-items: center;
-
+  justify-content: center;
+  width: 100%;
+  font-size: 42px;
 }
 
-#bouton
+#bouton_accueil
 {
    display: flex;
    justify-content: space-around;
@@ -840,103 +815,142 @@ figcaption i
    align-items: center;
 }
 
-#bouton a
+#bouton_accueil a
 {
 	font-size: 30PX.
 }
 
 .image
    {
-      width: 100%;
+      display: none;
    }   
 
- #ecri
+#ecrituresdela_photo
 {
-	top: 175px;
+	position:absolute;
+	z-index:-1;
+	top:250px;
+	display:flex;
+	justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: auto;
+    top: 175px;
+    border: solid 5px green;
+    margin-left: 0px;
+    background-color: grey;
+    flex-wrap: wrap;
+}
+
+#webagency
+{
+	color :#00BFFF;
+	display: flex;
+	justify-content: flex-start;
+	font-family:Roboto-Bold;
+	font-size: 70px;
 }
 
 
-#petitblanc
+
+
+#lagencedetous
+{
+font-family: Roboto-Bold;
+font-size: 70px;
+color:#00BFFF;
+}
+
+#vosprojects
+{
+font-family: Roboto-Bold;
+font-size: 70px;
+color: #00BFFF;
+display: flex;
+align-items: : flex-end;
+
+}
+
+
+#vousavezunproject
 {
 font-size: 24px;
 font-family: Roboto-Medium;
-color: white;
+color: #00BFFF;
 
 }
 
-#info
+#conteneurboutoninfo
+{
+	width: 100%;
+	border: 5px solid silver;
+	justify-content: center;
+	align-items: center;
+}                                                    
+
+#boutoninfo
 {
   color: white;
   background-color:#00BFFF;
   border-radius: 3px;
-  height:32px;
-  width:88px;
+  height:60px;
+  width:138px;
   display:flex;
   justify-content:  center;
   align-items: center;
   font-family: Roboto-medium;
-  font-size: 14px;
-  position: absolute;
-  z-index: -2;
-  left: 135px;
-  top: 340px;
+  font-size: 21px;
+  position: static;
+  z-index: -1;
+  left: 350px;
+  top: 710px;
+  border: 5px solid brown;
+
   
   
 }
 
 .partial-circle 
 {
-    width: 25px;
-    height: 50px;
-    background-color:black;
-    opacity: 0.38;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
-    position: absolute;
-    z-index: -1;
-    top:225px;
+    width: 0px;
+    height: 0px;
  }
 
 
 .partial-circled {
- 	width: 25px;
-    height: 50px;
-    background-color: black;
-    opacity: 0.38;
-    border-top-left-radius: 25px;
-	border-bottom-left-radius:25px;
-    position: absolute;
-    z-index: -1;
-    top:220px;
-    left:954px;
+ 	width: 0px;
+    height: 0px;
 	}
 
-
- .left 
- {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-  position: absolute;
-  top:245px;
-  left:5px;
+	#boutonfleche
+{
+	width: 0px;
+    height: 0px;
 }
 
- .right 
-    {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    position: absolute;
-    top:240px;
-    left:963px;
-	}
-	
+#fleche {
+  width: 0px;
+    height: 0px;
+    padding:0px;
+	border-width:0 0px 0px 0;}
 
-#Services
+
 {
    font-size: 80px;
 }
 
-.boule
+/* 2ème partie des Medias queries ( avec la photo de l'ordinateur + la description  des compétences des professionelles) */
+
+
+#Servicestitre
+{
+	font-family:Roboto-Bold;
+	font-size: 80px;
+    display: flex;
+	justify-content: center;
+}
+
+.boulebleuclaire
 {
 	display: block;
 	background: #00BFFF;
@@ -970,7 +984,7 @@ color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 2700px;
+	height: auto;
 	
 }
 
@@ -983,13 +997,12 @@ color: white;
 #cornerright
 {
 
-	height: 2700px;
+	height: 1500px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	width: 80%;
-
+	width: auto;
 }
 
 .troisservice
@@ -997,14 +1010,18 @@ color: white;
 	display: flex;
 	align-items: center;
 	justify-content:space-between;
-	width:430px;
-	
+	width:auto;
+	flex-direction: column;
 }
+
+
 
 .partietextservice
 {
 	height:auto;
-	border: solid 5px green;
+	width: auto;
+	justify-content: center;
+	align-items: center;
 }
 
 
@@ -1013,7 +1030,6 @@ color: white;
 	font-size: 55px;
 	color: #007bff;
 	padding: 20px;
-	border: 5px solid yellow;
 }
  
 
@@ -1030,20 +1046,27 @@ color: white;
 .grasservice
 {
   font-size: 44px;
+  display: flex;
+  justify-content: center;
 }
 
 
 .noirservice
 {
 	font-size: 35px;
+	display: flex;
+	justify-content: center;
 }
 
 #intru
 {
 	font-size: 35px;
 	width: auto;
+	display: flex;
+	justify-content: center;
 }
 
+/* 3ème partie ( avec les quatres boutons + tout les exemples des travaux des professionelles ) */
 
 #Portfolio
 {
@@ -1052,7 +1075,7 @@ color: white;
 
 
 
-.lignegauche
+.lignegauchedelaboule
 {
 	background-color: black;
 	width: 60px;
@@ -1061,7 +1084,7 @@ color: white;
 }
 
 
-.lignedroite
+.lignedroitedelaboule
 {
 	background-color: black;
 	width: 60px;
@@ -1095,13 +1118,13 @@ font-size: 30px;
 	border-color: #007bff transparent transparent transparent;
 	margin-top:36px;
 	position: absolute;
-	
 	opacity: 0;
 }
 
 #imageprojet
 {
 	height: auto;
+	border: red solid 5px;
 }
 
 
@@ -1119,17 +1142,11 @@ font-size: 30px;
 
 .rankone img
 {
-	width: 416px;
-	height: 270px;
+	width: 100%;
+	height: 100%;
 
 	
 }
-
-.imgproj img
-    {
-    	width:90%;
-    	height:90%;
-    }
 
  figcaption
 {
@@ -1138,7 +1155,7 @@ font-size: 30px;
 	display: flex;
 	flex-direction: column;
 	height: 94px;
-	width: 540px;
+	width: 600px;
 	justify-content: space-around;
 	margin-top: -100px;
     background: rgba(0, 0, 0, 0.5);
@@ -1167,30 +1184,43 @@ figcaption i
 	background-color: #007bff;
 }
 
+/* 4ème partie des Medias queries ( avec le formulaire + la carte ) */
 
 #nouscontacter
 {
 	height: auto;
+	display:flex;
+	flex-direction: column;
+
 }
 
-#rientrois
+#lienjusqua_lacarte
 {
-	font-size: 80px;
+	font-size: 70px;
 	top: 50px;
 }
+
+#lensemble
+{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
 
 iframe
     
 {
-  width: 1280px;
-  margin-top: 1200px;
+  width: 100%;
   height:  600px;
 }
 
 #placelesformulaires
 
 {
-   background-color: grey;
+   height: 700px;
+   width: 100%;
+   margin-top: 0px;
+   position: static;
 }
 
 #lesformulaires 
@@ -1199,26 +1229,68 @@ iframe
 	flex-direction: column;
 	align-items: flex-start;
 	width: 100%;
+	height: 100%;
 
 }
 
 #placefinal
 {
-	width: 70%;
-	height:2000px;
-	align-items: center;
-	margin-top:-500px;
-	background-color: grey;
-	
+	width: 100%;
+	height:500px;
+	display: flex;
+	flex-direction: column;
+
 }
 
 
 #formulaireback
 {
-   
-   background-color: grey;
-   width: 90%;
-   height: 70px;
+   width: 100%;
+   height: 150px;
+}
+
+#forcontact
+{
+	border: 5px solid blue;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	font-size: 33px;
+	justify-content: center;
+}
+
+#lestrois
+{
+	border: solid green 5px;
+	height: 105px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#forgrise
+{
+	font-size: 25px;
+}
+
+.forgris
+{
+	font-size: 25px;
+}
+
+
+#conteneurformulaire
+{
+	border: 5px solid yellow;
+	height: 750px;
+}
+
+#formulaire
+{
+	width: auto;
+	align-items: center;
+	height: 450px;
+	border: brown solid 5px;
 }
 
 #formulaire form
@@ -1226,10 +1298,25 @@ iframe
    display: flex;
    flex-direction: column;
    justify-content: space-around;
+   align-items: center;
    width: 90%;
-   height: 250px;
+   height: 350px;
    padding-left: 15px;
    padding-right: 15px;
+   border: blue solid 5px;
+   margin: 0px;
+}
+
+#formulaire input
+{
+	font-size: 22px;
+	width: 100%;
+}
+
+#Message
+{
+  font-size: 22px;
+
 }
 
 
@@ -1238,17 +1325,15 @@ iframe
   color: white;
   background-color:#00BFFF;
   border-radius: 3px;
-  height:32px;
-  width:88px;
+  height:64px;
+  width:170px;
   display:flex;
   justify-content:  center;
   align-items: center;
   font-family: Roboto-medium;
-  font-size: 12px;
-  position:absolute;
-  top: -170px;
-  left: 0px;
-
+  font-size: 24px;
+  position:static;
+  border: 5px solid red;
 }
 
 
