@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head> 
     <link rel="stylesheet" href="mission.css"/>
@@ -8,11 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.5">   
 
     <meta charset="UTF-8" />
+    
     <script src="https://kit.fontawesome.com/c7626e5502.js" crossorigin="anonymous"></script>
+    
 </head>
 
 
-<body>
+<body>  
+   /* 1ère partie ( avec la barre défilante + l'image d'accueil) */ 
     <div id="Accueil">
         <div id="parentbarre">
             <div id="barre">
@@ -22,14 +25,14 @@
             
                 <div id="bouton_accueil">
                     <a href="#Accueil" >Accueil</a>
-                    <a href="#rien" >Services</a>
-                    <a href="#riendeux" >Portfolio</a> 
+                    <a href="#lientonosservices" >Services</a>
+                    <a href="#lienproject" >Portfolio</a> 
                     <a href="#lienjusqua_lacarte" class=lien>Contacts</a>
                 </div>
             </div>
         </div>
         <div id="imageaccueil">
-            <img class=image src="images/fillepeinture.jpg"alt="image d'accueil"/>
+            <img class=image src="images/fillepeinture.jpg" alt="image d'accueil"/>
                 <div id="ecrituresdela_photo">
                    <div id="webagency">
                     WEBAGENCY
@@ -43,7 +46,7 @@
                    <div id="vousavezunproject">
                     Vous avez un project web? La Web Agency vous aide à le réaliser
                    </div>
-                   <div id="petitespacevide">
+                   <div id="petitespaceespace_titreetconstruction">
                    </div>
                    <div id="conteneurboutoninfo">
                        <div id="boutoninfo">
@@ -51,10 +54,6 @@
                        </div>
                     </div>
                 </div>
-        
-
-                
-            </div>
                 <div id="lesdemicercles">
                     <div class="partial-circle">
                     </div>
@@ -62,14 +61,16 @@
                     </div>
                 </div>
                 <div id="boutonfleche">
-                    <p> <div id="fleche" class="right"></div></p>
-                    <p> <div id="fleche" class="left"></div></p>
+                     <div id="flecheright"></div>
+                     <div id="flecheleft"></div>
                 </div>
         </div>
     </div>
+
+    /* 2ème partie ( avec la photo de l'ordinateur + la description  des compétences des professionelles) */
     <div id="nosservices">
         <div id="partietitreservice">
-        <div id="rien">
+        <div id="lientonosservices">
                 
         </div>
         <div id="Servicestitre">
@@ -88,73 +89,82 @@
         </div>
     
 
-            <div id="espacedeux">
+            <div id="espace_constructionettexte">
             </div>
-            <div id="latinuno">
-                <div id="latinhautuno">  
+            <div id="phrasenosservices">
+                <div id="phrasenosservices_haut">  
                     Vous souhaitez créer votre site web, qui fera la différence? 
                 </div>
-                <div id="latinbasuno"> 
+                <div id="phrasenosservices_bas"> 
                     Pour cela, contactez nos proffessionel d'urgence !
                 </div>
             </div>
 
          </div>
          
-         <div id="interieur">
+         <div id="interieur_nosservices">
             <div id="ordi">
-                <img src="images/ordi3.png">
+                <img src="images/ordi3.png" alt="ordinateur">
             </div>
-            <div id="cornerright">
-                <div class="troisservice">
+            <div id="qualités_siteclient">
+                <div class="chaquequalité_siteclient">
 
                     <div class="boutonservice">
                         <i  class="fas fa-chart-line"></i>
                     </div>
                     <div class="partietextservice">
-                        <div class="surgrasservice">
-                            <div class="grasservice">
+                        <div class="parent_titre_qualité_siteclient">
+                            <div class="titre_qualitédusiteclient">
                                 UX design
                             </div>
-                            <div class="noirservice">
-                                 La création d'un site simple d'utilisation et accessible à tous grâce <br/>
-                                 à un travail qui met en avant l'aspect esthetique ainsi que la fluidité de celui-ci.<br/>
-                                 Notre UX designer s'occupera également de toute la face caché du site web, <br/>
-                                 qui attira naturellement les clients chez vous.
+                            <div class="espace_logoettexte">
                             </div>
+                            <div class="texte_qualitédusiteclient">
+                                     La création d'un site simple d'utilisation et accessible à tous grâce <br/>
+                                     à un travail qui met en avant l'aspect esthetique ainsi que la fluidité de celui-ci.<br/>
+                                     Notre UX designer s'occupera également de toute la face caché du site web, <br/>
+                                     qui attira naturellement les clients chez vous.
+                            </div>
+                            
                         </div>       
                     </div>
                 </div>
-                <div class="troisservice">
+                <div class="chaquequalité_siteclient">
                     <div class="boutonservice">
                         <i  class="fas fa-cubes"></i>
                     </div>
                     <div class="partietextservice">
-                        <div class="surgrasservice">
-                            <div class="grasservice">
+                        <div class="parent_titre_qualité_siteclient">
+                            <div class="titre_qualitédusiteclient">
                                 UI design
                             </div>
-                            <div id="intru">
-                                 La création d'un site simple d'utilisation et accessible à tous grâce <br/>
-                                 à un travail qui met en avant l'aspect esthetique ainsi que la fluidité de celui-ci.<br/>
-                                 Notre UI designer saura mettre tout en oeuvre afin que votre site attire une clientèle recherché.
+                            <div class="espace_logoettexte">
                             </div>
+                            <div id="texte_UIdesign">
+                                     La création d'un site simple d'utilisation et accessible à tous grâce <br/>
+                                     à un travail qui met en avant l'aspect esthetique ainsi que la fluidité de celui-ci.<br/>
+                                     Notre UI designer saura mettre tout en oeuvre afin que votre site attire une clientèle recherché.
+                            </div>
+                            
                         </div>    
                     </div>
                 </div>
-                <div class="troisservice">
+                <div class="chaquequalité_siteclient">
                     <div class="boutonservice">
                         <i  class="fas fa-chart-pie"></i>
                     </div>
                      <div class="partietextservice">
-                        <div class="surgraseservice">
-                            <div class="grasservice">
+                        <div class="parent_titreSEO">
+                            <div class="titre_qualitédusiteclient">
                                 SEO
                             </div>
-                            <div class="noirservice">
-                                 L'art de mettre votre site <br/>
-                                  en top des listes. 
+                            <div class="espace_logoettexte">
                             </div>
+                            <div class="texte_qualitédusiteclient">
+                                     L'art de mettre votre site <br/>
+                                      en top des listes. 
+                            </div>
+                            
                         </div> 
                     </div>                           
                 </div>
@@ -166,15 +176,16 @@
         </div>
 
     </div>
+  /* 3ème partie ( avec les quatres boutons + tout les exemples des travaux des professionelles ) */
     <div id="nosprojects">
-        <div id="hautprojet">
-            <div id="riendeux" >
+        <div id="partietitre_nosprojet">
+            <div id="lienproject" >
                 
             </div>
-            <div id="Portfolio" >
+            <div id="nosprojects_titre" >
                 NOS PROJECTS
             </div>
-            <div id="vide">
+            <div id="espace_titreetconstruction">
             </div>
             <div id="constructiondeux">
                
@@ -185,158 +196,147 @@
                 <div class="lignedroitedelaboule">
                 </div>
             </div>
-             <div id="espacetrois">
+             <div id="espace_constructiondeuxetphrase">
             </div>
 
-            <div id="latinprojet">
-                <div id="latun">
+            <div id="phraseprojet">
+                <div id="phraseprojet_haut">
                     Bientôt, votre projet sera connu de tous.
                 </div>
-                <div id="latdeux">
+                <div id="phraseprojet_bas">
                     Pour cela, Web Agency s'occupe de tout !
                 </div>
 
             </div>
         </div>
         <div id="boutonprojet">
-            <div class="boutonmem">
+            <div class="boutonprojet_individuel">
                  <p>All Works</p>
                  <div class="triangle"></div>
             </div>
-            <div class="boutonmem">
+            <div class="boutonprojet_individuel">
                 <p>Creative</p> <div class="triangle"></div>
             </div>
-            <div class="boutonmem">
+            <div class="boutonprojet_individuel">
                 <p>Corporate</p><div class="triangle"></div>
             </div>
-            <div class="boutonmem">
+            <div class="boutonprojet_individuel">
                 <p>Portfolio</p><div class="triangle"></div>
             </div>
         </div>
-        <div id="videux">
+        <div id="espace_boutonprojetetimageprojet">
         </div>
         
         <div id="imageprojet">
-            <div class="conteneurrankone">
-                <div class="rankone">
-                        <figure class="imgproj">
+            <div class="conteneurpartiesdesimages">
+                <div class="partiesdesimages">
+                        <figure class="imageprojet_individuelle">
                             <img src="images/01.jpg">
                                 <figcaption> <b>
                                  L'opticien aux petits soins</b>
                                  <i  class="fas fa-eye"></i>
-                                </figcaption>
-                            </img>    
+                                </figcaption>  
                         </figure>
-                        <figure class="imgproj">
+                        <figure class="imageprojet_individuelle">
                             <img src="images/02.jpg">
                                 <figcaption> <b>Your Game is not over yet</b>
                                     <i  class="fas fa-eye"></i>
-                                </figcaption>
-                                
-                            </img>  
+                                </figcaption>  
                         </figure>
-                        <figure class="imgproj">
+                        <figure class="imageprojet_individuelle">
                             <img src="images/03.jpg">
                                 <figcaption> <b>
                                 La peinture dans sa culture</b>
                                  <i  class="fas fa-eye"></i>
                                 </figcaption>
-                               
-                            </img>   
                         </figure>
-                        <figure class="imgproj">
+                        <figure class="imageprojet_individuelle">
                             <img src="images/04.jpg">
                                 <figcaption> <b>
                                 L'agent indétronable</b>
                                 <i  class="fas fa-eye"></i>
-                                </figcaption> 
-                            </img> 
+                                </figcaption>
                         </figure> 
                 </div>
             </div>
-            <div class="conteneurrankone">
-                <div class="rankone">
-                    <figure class="imgproj">
+            <div class="conteneurpartiesdesimages">
+                <div class="partiesdesimages">
+                    <figure class="imageprojet_individuelle">
                         <img src="images/05.jpg">
                             <figcaption> <b>
                             Ton shoppping démentiel </b>
                             <i  class="fas fa-eye"></i>
-                            </figcaption>
-                            
-                        </img>   
+                            </figcaption>  
                     </figure> 
-                    <figure class="imgproj">
+                    <figure class="imageprojet_individuelle">
                         <img src="images/06.jpg">
                             <figcaption> <b>
                             Un monde téléphoné</b>
                             <i  class="fas fa-eye"></i>
                             </figcaption>
-                            
-                        </img>
                     </figure>
-                    <figure class="imgproj">
+                    <figure class="imageprojet_individuelle">
                         <img src="images/07.jpg">
                             <figcaption> <b>
                             Le piston et son pigeon</b>
                             <i  class="fas fa-eye"></i>
-                            </figcaption>
-                            
-                        </img>       
+                            </figcaption>      
                     </figure>
-                    <figure class="imgproj">
+                    <figure class="imageprojet_individuelle">
                         <img src="images/08.jpg">
                             <figcaption> <b> Le ménage et ses règles</b>
                             <i  class="fas fa-eye"></i>
-                            </figcaption>
-                            
-                        </img>   
+                            </figcaption>   
                     </figure>    
                 </div>
             </div>                                                                          
         </div>
     </div>
+
+    /* 4ème partie ( avec le formulaire_remplissage + la carte ) */
+
     <div id="nouscontacter">
-        <div id="rientroisdessus">
-        </div>
         <div id="lienjusqua_lacarte">
+        </div>
+        <div id="titre_nouscontacter">
             NOUS CONTACTER
         </div>
         <div id="lensemble">
-            <div id="Contacts">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221424607979!2d2.3476369150880223!3d48.87305530762902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sen!2sfr!4v1578422717413!5m2!1sen!2sfr" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <div id="Carte">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221424607979!2d2.3476369150880223!3d48.87305530762902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sen!2sfr!4v1578422717413!5m2!1sen!2sfr" width="100%" height="500" style="border:0;" allowfullscreen=""></iframe>
 
             </div>
-            <div id="placelesformulaires">
-                <div id="lesformulaires">
-                    <div id="placefinal">
+            <div id="grandparent_leformulaire">
+                <div id="parent_leformulaire">
+                    <div id="leformulaire">
 
-                        <div id="formulaireback">
-                            <div id="forcontact">
+                        <div id="formulaire_infos">
+                            <div id="Contactinfo">
                                 Contact Info
                             </div>
-                            <div id="lestrois">
-                                <div id="forgrise">
+                            <div id="formulaireinfo_sauftitre">
+                                <div id="WebagencySAS">
                                     WebAgency SAS
                                 </div>
-                                <div class="forgris">
+                                <div class="formulaireinfo_adressetnumtel">
                                     25 rue d'Hauteville 75010 Paris
                                 </div>
-                                <div class="forgris">
+                                <div class="formulaireinfo_adressetnumtel">
                                     Tel: 01 02 03 04 05
                                 </div>
                             </div>
                         </div>
-                        <div id="conteneurformulaire">
-                            <div id="formulaire"> 
+                        <div id="conteneurformulaire_remplissage">
+                            <div id="formulaire_remplissage"> 
                                 <form method="post" action="traitement.php">
                                     <input type="text" name="Name" placeholder="Name"/>
                                     <input type="text" name="Email" placeholder="Email"/>
                                     <input type="text" name="Subject" placeholder="Subject"/>
                                     <input type="text" name="Message" placeholder="Message" id="Message"/>
                                 </form>
-                        <div id="sendmessage"> 
-                            Send Message
-                        </div>
+                                <div id="boutonsendmessage"> 
+                                    Send Message
+                                </div>   
                             </div>
                         </div>
                     </div>

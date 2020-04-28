@@ -34,11 +34,12 @@ body
 	display: flex;
 	width:100%;
 	justify-content: center;
-	
 	height: 70px;
 	background-color: white;
 	position: fixed;
+	z-index:11;
 	top:0px;
+
 }
 
 #barre
@@ -131,7 +132,7 @@ font-family: Roboto-Bold;
 font-size: 28px;
 color:white;
 display: flex;
-align-items: : flex-end;
+align-items: flex-end;
 
 }
 
@@ -142,7 +143,7 @@ font-family: Roboto-Medium;
 color: white
 }
 
-#petitespacevide
+#petitespaceespace_titreetconstruction
 {
   width: 100px;
 
@@ -189,7 +190,7 @@ color: white
 	border-bottom-left-radius:25px;
     position: absolute;
     z-index: -1;
-    top:328px;
+    top:324px;
     left:1493px;
 }
 
@@ -198,29 +199,34 @@ color: white
 	margin:0;
 }
 
-#fleche {
+#flecheright {
   border: solid black;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 5px;
   border-color:white;
-}
-
-.right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   position: absolute;
   top:348px;
   left:1500px;
+
 }
 
-.left {
+#flecheleft {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  border-color:white;
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
   position: absolute;
   top:340px;
   left:5px;
+
 }
+
 
 
 
@@ -230,12 +236,12 @@ color: white
 #partietitreservice
 {
 	display:flex;
-	justify-content: : center;
+	justify-content: center;
 	flex-direction: column;
 	align-items: center;
 }
 
-#rien
+#lientonosservices
 {
 	height : 90px;
 }
@@ -288,14 +294,14 @@ color: white
 	margin-top: 5px;
 }
 
-#espacedeux
+#espace_constructionettexte
 {
 	height: 12px;
 }
 
 
 
-#latinhautuno
+#phrasenosservices_haut
 {
 	 font-family:Roboto-Medium;
 	font-size: 11px;
@@ -304,7 +310,7 @@ color: white
 	
 }
 
-#latinbasuno
+#phrasenosservices_bas
 {
 	 font-family:Roboto-Medium;
 	font-size: 11px;
@@ -314,7 +320,7 @@ color: white
 }
 
 
-#interieur
+#interieur_nosservices
 {
 	display: flex;
 	align-items: center;
@@ -339,7 +345,7 @@ color: white
 	height: auto;
 }
 
-#cornerright
+#qualités_siteclient
 {
 
 	height: 280px;
@@ -350,7 +356,7 @@ color: white
 
 }
 
-.troisservice
+.chaquequalité_siteclient
 {
 	display: flex;
 	align-items: center;
@@ -362,7 +368,7 @@ color: white
 .boutonservice i
 {
 	font-size: 22px;
-	color: #007bff;
+	color: #00BFFF;
   	border-radius:50%;
   	border: black solid 1px;
   	padding:5px;
@@ -379,12 +385,12 @@ color: white
     align-items: center;
 }
 
-.surgraseservice
+.parent_titreSEO
 {
   width: 385px;	
 }
 
-.grasservice
+.titre_qualitédusiteclient
 {
     font-family:Roboto-Medium;
 	font-size: 13px;
@@ -392,14 +398,14 @@ color: white
 }
 
 
-.noirservice
+.texte_qualitédusiteclient
 {
     font-family:Roboto-Medium;
 	font-size: 11px;
 	
 }
 
-#intru
+#texte_UIdesign
 {
 
     font-family:Roboto-Medium;
@@ -420,18 +426,18 @@ color: white
 	align-items: center;
 }
 
-#hautprojet
+#partietitre_nosprojet
 {
 	margin-bottom: 50px;
 }
 
 
-#riendeux
+#lienproject
 {
 	height: 80px;
 }
 
-#Portfolio
+#nosprojects_titre
 {
 	font-family:Roboto-Bold;
 	font-size: 33px;
@@ -441,7 +447,7 @@ color: white
 
 }
 
-#vide
+#espace_titreetconstruction
 {
 	height: 12px;
 }
@@ -453,12 +459,12 @@ color: white
    justify-content: center;
 }
 
-#espacetrois
+#espace_constructiondeuxetphrase
 {
 	height: 12px;
 }
 
-#latun
+#phraseprojet_haut
 {
 	 font-family:Roboto-Medium;
 	font-size: 11px;
@@ -467,7 +473,7 @@ color: white
 	
 }
 
-#latdeux
+#phraseprojet_bas
 {
 	 font-family:Roboto-Medium;
 	font-size: 11px;
@@ -488,7 +494,7 @@ color: white
 	margin-top: -10px;	
 }
 
-.boutonmem 
+.boutonprojet_individuel 
 {
   color: black;
   
@@ -502,14 +508,14 @@ color: white
   font-family: Roboto-Medium;
 }
 
- .boutonmem:hover 
+ .boutonprojet_individuel:hover 
 {
-    background-color:#007bff;
+    background-color:#00BFFF;
 
 
 }
 
-.boutonmem:hover .triangle
+.boutonprojet_individuel:hover .triangle
 {
     
    opacity: 1;
@@ -522,14 +528,14 @@ color: white
 	height: 0;
 	border-style: solid;
 	border-width: 7px 7px 0 7px;
-	border-color: #007bff transparent transparent transparent;
+	border-color: #00BFFF transparent transparent transparent;
 	margin-top:17px;
 	position: absolute;
 	opacity: 0;
 }
 
 
-#videux
+#espace_boutonprojetetimageprojet
 {
 	height: 28px;
 }
@@ -546,7 +552,7 @@ color: white
 }
 
 
-.conteneurrankone
+.conteneurpartiesdesimages
 {
 	width: 100%;
 	justify-content: center;
@@ -554,7 +560,7 @@ color: white
 	
 }
 
-.rankone
+.partiesdesimages
 {
 	height: 160px;
 	display: flex;	
@@ -565,20 +571,20 @@ color: white
 
 }
 
-.rankone img
+.partiesdesimages img
 {
 	width: 208px;
 	height: 135px;
 	
 }
 
-.imgproj
+.imageprojet_individuelle
 {
 	margin: 0;
 	
 }
 
-.imgproj:hover figcaption 
+.imageprojet_individuelle:hover figcaption 
 {
 	opacity: 1;
 }
@@ -624,18 +630,18 @@ figcaption i
 	border: white solid 1px;
 	margin-top: -50px;
 	font-size: 13px;
-	background-color: #007bff;
+	background-color: #00BFFF;
 }
 
 
 
 
 
-/* 4ème partie ( avec le formulaire + la carte ) */
+/* 4ème partie ( avec le formulaire_remplissage + la carte ) */
 
 
 
-#lienjusqua_lacarte
+#titre_nouscontacter
 {
 	height: 178px;
 	width: auto;
@@ -646,7 +652,7 @@ figcaption i
 	align-items: center;
 }
 	
-#placelesformulaires 
+#grandparent_leformulaire 
 {
    width: 1500px;
    display: flex;
@@ -654,7 +660,7 @@ figcaption i
    margin-top: -400px;
    height: 450px;
 }
-#lesformulaires 
+#parent_leformulaire 
 {
 	display: flex;
 	flex-direction: column;
@@ -663,14 +669,14 @@ figcaption i
 
 }
 
-#placefinal
+#leformulaire
 {
 	width: auto;
 	height: 400px;
 	background-color: #F0FFFF;
 }
 
-#formulaireback
+#formulaire_infos
 {
    
    background-color: #F0FFFF;
@@ -679,7 +685,7 @@ figcaption i
 
 }
 
-#forcontact
+#Contactinfo
 {
 	font-family:Roboto-Bold;
 	font-size: 17px;
@@ -692,7 +698,7 @@ figcaption i
 
 
 
-#lestrois
+#formulaireinfo_sauftitre
 {
   display: flex;
   justify-content: flex-end;
@@ -702,7 +708,7 @@ figcaption i
 
 }
 
-#forgrise
+#WebagencySAS
 {
 	font-family: Roboto-Bold;
 	
@@ -710,14 +716,14 @@ figcaption i
 
 }
 
-.forgris
+.formulaireinfo_adressetnumtel
 {
 	font-family: Roboto-Thin;
 	font-size: 11px;
 
 }
  
-#formulaire form
+#formulaire_remplissage form
 {
    display: flex;
    flex-direction: column;
@@ -736,7 +742,7 @@ figcaption i
 	align-items: flex-start;
 }
 
-#sendmessage
+#boutonsendmessage
 {
   color: white;
   background-color:#00BFFF;
@@ -817,7 +823,7 @@ figcaption i
 
 #bouton_accueil a
 {
-	font-size: 30PX.
+	font-size: 30px;
 }
 
 .image
@@ -838,7 +844,7 @@ figcaption i
     top: 175px;
     border: solid 5px green;
     margin-left: 0px;
-    background-color: grey;
+    background-color: green;
     flex-wrap: wrap;
 }
 
@@ -867,14 +873,14 @@ font-family: Roboto-Bold;
 font-size: 70px;
 color: #00BFFF;
 display: flex;
-align-items: : flex-end;
+align-items: flex-end;
 
 }
 
 
 #vousavezunproject
 {
-font-size: 24px;
+font-size: 26px;
 font-family: Roboto-Medium;
 color: #00BFFF;
 
@@ -928,15 +934,19 @@ color: #00BFFF;
     height: 0px;
 }
 
-#fleche {
+#flecheleft
+ {
   width: 0px;
     height: 0px;
     padding:0px;
-	border-width:0 0px 0px 0;}
-
-
-{
-   font-size: 80px;
+	border-width:0 0px 0px 0;
+}
+#flecheright
+ {
+  width: 0px;
+    height: 0px;
+    padding:0px;
+	border-width:0 0px 0px 0;
 }
 
 /* 2ème partie des Medias queries ( avec la photo de l'ordinateur + la description  des compétences des professionelles) */
@@ -961,7 +971,7 @@ color: #00BFFF;
 
 }
 
-#latinhautuno
+#phrasenosservices_haut
 {
 	 font-family:Roboto-Medium;
 	font-size: 30px;
@@ -970,7 +980,7 @@ color: #00BFFF;
 	
 }
 
-#latinbasuno
+#phrasenosservices_bas
 {
 	 font-family:Roboto-Medium;
 	font-size: 30px;
@@ -979,7 +989,7 @@ color: #00BFFF;
 	
 }
 
-#interieur
+#interieur_nosservices
 {
 	display: flex;
 	align-items: center;
@@ -994,7 +1004,7 @@ color: #00BFFF;
 	height: 0px;
 }
 
-#cornerright
+#qualités_siteclient
 {
 
 	height: 1500px;
@@ -1002,10 +1012,10 @@ color: #00BFFF;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	width: auto;
+	width: 90%;
 }
 
-.troisservice
+.chaquequalité_siteclient
 {
 	display: flex;
 	align-items: center;
@@ -1036,29 +1046,34 @@ color: #00BFFF;
 
 
 
-.surgraseservice
+.parent_titreSEO
 {
  
   width: 785px;	
 }
 
 
-.grasservice
+.titre_qualitédusiteclient
 {
   font-size: 44px;
   display: flex;
   justify-content: center;
 }
 
+.espace_logoettexte
+{
+	height: 70px;
+}
 
-.noirservice
+
+.texte_qualitédusiteclient
 {
 	font-size: 35px;
 	display: flex;
 	justify-content: center;
 }
 
-#intru
+#texte_UIdesign
 {
 	font-size: 35px;
 	width: auto;
@@ -1068,9 +1083,14 @@ color: #00BFFF;
 
 /* 3ème partie ( avec les quatres boutons + tout les exemples des travaux des professionelles ) */
 
-#Portfolio
+#nosprojects_titre
 {
 	font-size: 80px;
+}
+
+#espace_titreetconstruction
+{
+	height: 32px;
 }
 
 
@@ -1092,17 +1112,17 @@ color: #00BFFF;
 	margin-top: 10px;
 }
 
-#latun
+#phraseprojet_haut
 {
 font-size: 30px;	
 }
 
-#latdeux
+#phraseprojet_bas
 {
 font-size: 30px;	
 }
 
-.boutonmem 
+.boutonprojet_individuel 
 {
   height:60px;
   width:136px;
@@ -1115,7 +1135,7 @@ font-size: 30px;
 	height: 0;
 	border-style: solid;
 	border-width: 14px 14px 0 14px;
-	border-color: #007bff transparent transparent transparent;
+	border-color: #00BFFF transparent transparent transparent;
 	margin-top:36px;
 	position: absolute;
 	opacity: 0;
@@ -1130,7 +1150,7 @@ font-size: 30px;
 
 
 
-.rankone
+.partiesdesimages
 {
 	height: auto;
 	display: flex;	
@@ -1140,7 +1160,7 @@ font-size: 30px;
 	align-items: center;
 }
 
-.rankone img
+.partiesdesimages img
 {
 	width: 100%;
 	height: 100%;
@@ -1160,6 +1180,7 @@ font-size: 30px;
 	margin-top: -100px;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
+    z-index: 10;
     font-size: 28px;
     opacity: 1;
 }
@@ -1181,10 +1202,10 @@ figcaption i
 	margin-top: -230px;
 	margin-left:400px;
 	font-size: 40px;
-	background-color: #007bff;
+	background-color: #00BFFF;
 }
 
-/* 4ème partie des Medias queries ( avec le formulaire + la carte ) */
+/* 4ème partie des Medias queries ( avec le formulaire_remplissage + la carte ) */
 
 #nouscontacter
 {
@@ -1194,7 +1215,7 @@ figcaption i
 
 }
 
-#lienjusqua_lacarte
+#titre_nouscontacter
 {
 	font-size: 70px;
 	top: 50px;
@@ -1214,7 +1235,7 @@ iframe
   height:  600px;
 }
 
-#placelesformulaires
+#grandparent_leformulaire
 
 {
    height: 700px;
@@ -1223,7 +1244,7 @@ iframe
    position: static;
 }
 
-#lesformulaires 
+#parent_leformulaire 
 {
 	display: flex;
 	flex-direction: column;
@@ -1233,9 +1254,9 @@ iframe
 
 }
 
-#placefinal
+#leformulaire
 {
-	width: 100%;
+	width: 90%;
 	height:500px;
 	display: flex;
 	flex-direction: column;
@@ -1243,13 +1264,13 @@ iframe
 }
 
 
-#formulaireback
+#formulaire_infos
 {
    width: 100%;
    height: 150px;
 }
 
-#forcontact
+#Contactinfo
 {
 	border: 5px solid blue;
 	height: 45px;
@@ -1259,7 +1280,7 @@ iframe
 	justify-content: center;
 }
 
-#lestrois
+#formulaireinfo_sauftitre
 {
 	border: solid green 5px;
 	height: 105px;
@@ -1268,24 +1289,24 @@ iframe
 	align-items: center;
 }
 
-#forgrise
+#WebagencySAS
 {
 	font-size: 25px;
 }
 
-.forgris
+.formulaireinfo_adressetnumtel
 {
 	font-size: 25px;
 }
 
 
-#conteneurformulaire
+#conteneurformulaire_remplissage
 {
 	border: 5px solid yellow;
 	height: 750px;
 }
 
-#formulaire
+#formulaire_remplissage
 {
 	width: auto;
 	align-items: center;
@@ -1293,7 +1314,7 @@ iframe
 	border: brown solid 5px;
 }
 
-#formulaire form
+#formulaire_remplissage form
 {
    display: flex;
    flex-direction: column;
@@ -1307,7 +1328,7 @@ iframe
    margin: 0px;
 }
 
-#formulaire input
+#formulaire_remplissage input
 {
 	font-size: 22px;
 	width: 100%;
@@ -1320,7 +1341,7 @@ iframe
 }
 
 
-#sendmessage
+#boutonsendmessage
 {
   color: white;
   background-color:#00BFFF;
