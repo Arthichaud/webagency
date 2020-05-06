@@ -58,7 +58,7 @@ body
    display: flex;
    justify-content: space-around;
    font-family: Roboto-Medium;
-   font-size: 12px;
+   font-size: 0.85em;
    width: 30%;
    align-items: center;
 }
@@ -103,7 +103,6 @@ body
     height: 150px;
     width: 500px;
     margin-left: 135px;
-    border: yellow solid 5px;
 }
 
 #webagency
@@ -112,7 +111,7 @@ body
 	display: flex;
 	justify-content: flex-start;
 	font-family:Roboto-Bold;
-	font-size: 28px;
+	font-size: 2em;
 }
 
 
@@ -121,7 +120,7 @@ body
 #lagencedetous
 {
 font-family: Roboto-Bold;
-font-size: 28px;
+font-size: 2em;
 color:white;
 }
 
@@ -129,7 +128,7 @@ color:white;
 #vosprojects
 {
 font-family: Roboto-Bold;
-font-size: 28px;
+font-size: 2em;
 color:white;
 display: flex;
 align-items: flex-end;
@@ -138,7 +137,7 @@ align-items: flex-end;
 
 #vousavezunproject
 {
-font-size: 11px;
+font-size: 0.8em;
 font-family: Roboto-Medium;
 color: white
 }
@@ -160,7 +159,7 @@ color: white
   justify-content:  center;
   align-items: center;
   font-family: Roboto-medium;
-  font-size: 14px;
+  font-size: 0.8em;
   position: static;
   z-index: -2;
 }
@@ -208,7 +207,7 @@ color: white
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   position: absolute;
-  top:348px;
+  top:345px;
   left:1500px;
 
 }
@@ -249,7 +248,7 @@ color: white
 #Servicestitre
 {
 	font-family:Roboto-Bold;
-	font-size: 33px;
+	font-size: 2.5em;
     display: flex;
 	justify-content: center;
 }
@@ -304,7 +303,7 @@ color: white
 #phrasenosservices_haut
 {
 	 font-family:Roboto-Medium;
-	font-size: 11px;
+	font-size: 0.8em;
 	display: flex;
 	justify-content: center;
 	
@@ -313,7 +312,7 @@ color: white
 #phrasenosservices_bas
 {
 	 font-family:Roboto-Medium;
-	font-size: 11px;
+	font-size: 0.8em;
 	display: flex;
 	justify-content: center;
 	
@@ -345,7 +344,7 @@ color: white
 	height: auto;
 }
 
-#qualités_siteclient
+#boutonsservices
 {
 
 	height: 280px;
@@ -356,7 +355,7 @@ color: white
 
 }
 
-.chaquequalité_siteclient
+.chaque_boutonsservices
 {
 	display: flex;
 	align-items: center;
@@ -390,18 +389,18 @@ color: white
   width: 385px;	
 }
 
-.titre_qualitédusiteclient
+.titredesboutonsservices
 {
     font-family:Roboto-Medium;
-	font-size: 13px;
+	font-size: 1em;
 	
 }
 
 
-.texte_qualitédusiteclient
+.texte_desboutonsservices
 {
     font-family:Roboto-Medium;
-	font-size: 11px;
+	font-size: 0.69em;
 	
 }
 
@@ -409,7 +408,7 @@ color: white
 {
 
     font-family:Roboto-Medium;
-	font-size: 11px;
+	font-size: 0.69em;
 	width: 385px;	
 }
 
@@ -419,7 +418,6 @@ color: white
 #nosprojects
 
 {
-	border-color: green;
 	border-width: 20px;
 	display:flex;
 	flex-direction:column;
@@ -440,7 +438,7 @@ color: white
 #nosprojects_titre
 {
 	font-family:Roboto-Bold;
-	font-size: 33px;
+	font-size: 2.5em;
     display: flex;
 	justify-content: center;
 
@@ -467,7 +465,7 @@ color: white
 #phraseprojet_haut
 {
 	 font-family:Roboto-Medium;
-	font-size: 11px;
+	font-size: 0.8em;
 	display: flex;
 	justify-content: center;
 	
@@ -476,7 +474,7 @@ color: white
 #phraseprojet_bas
 {
 	 font-family:Roboto-Medium;
-	font-size: 11px;
+	font-size: 0.8em;
 	display: flex;
 	justify-content: center;
 	
@@ -490,7 +488,7 @@ color: white
 	justify-content: center;
 	height: 30px;
 	align-items: center;
-	font-size: 12px;
+	font-size: 0.7em;
 	margin-top: -10px;	
 }
 
@@ -604,13 +602,12 @@ color: white
 figcaption
 {
 	color: white;
-	font-size: 13px;
 	height: 47px;
 	width: 208px;
 	margin-top: -50px;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
-    font-size: 14px;
+    font-size: 0.9em;
     opacity:0;
     display:flex;
     justify-content: space-around;
@@ -629,7 +626,7 @@ figcaption i
 	padding: 5px;
 	border: white solid 1px;
 	margin-top: -50px;
-	font-size: 13px;
+	font-size: 0.9em;
 	background-color: #00BFFF;
 }
 
@@ -646,7 +643,7 @@ figcaption i
 	height: 178px;
 	width: auto;
 	font-family:Roboto-Bold;
-	font-size: 33px;
+	font-size: 2.5em;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -654,18 +651,19 @@ figcaption i
 	
 #grandparent_leformulaire 
 {
-   width: 1500px;
+   width: 100%;
    display: flex;
    position: absolute;
    margin-top: -400px;
    height: 450px;
+
 }
 #parent_leformulaire 
 {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	width: 80%;
+	width: 90%;
 
 }
 
@@ -688,7 +686,7 @@ figcaption i
 #Contactinfo
 {
 	font-family:Roboto-Bold;
-	font-size: 17px;
+	font-size: 1em;
 	height: 27px;
 	padding-left: 15px;
 
@@ -712,14 +710,14 @@ figcaption i
 {
 	font-family: Roboto-Bold;
 	
-	font-size: 11px;
+	font-size: 0.8em;
 
 }
 
 .formulaireinfo_adressetnumtel
 {
 	font-family: Roboto-Thin;
-	font-size: 11px;
+	font-size: 0.8em;
 
 }
  
@@ -753,14 +751,17 @@ figcaption i
   justify-content:  center;
   align-items: center;
   font-family: Roboto-medium;
-  font-size: 12px;
+  font-size: 0.75em;
   margin-left: 15px;
 }
 
 
-
-
-
+#Carte iframe
+{
+  width:100%;
+  height:500px;
+  border:0;
+}
 
 
 
@@ -791,7 +792,6 @@ figcaption i
 { 
 	height: auto;
 	width: 100%;
-	border: solid red;
 }
 
 #barre
@@ -808,7 +808,7 @@ figcaption i
   align-items: center;
   justify-content: center;
   width: 100%;
-  font-size: 42px;
+  font-size: 1em;
 }
 
 #bouton_accueil
@@ -816,14 +816,14 @@ figcaption i
    display: flex;
    justify-content: space-around;
    font-family: Roboto-Medium;
-   font-size: 30px;
+   font-size: 1em;
    width: 100%;
    align-items: center;
 }
 
 #bouton_accueil a
 {
-	font-size: 30px;
+	font-size: 2em;
 }
 
 .image
@@ -842,9 +842,8 @@ figcaption i
     height: 600px;
     width: auto;
     top: 175px;
-    border: solid 5px green;
     margin-left: 0px;
-    background-color: green;
+    background-color: white;
     flex-wrap: wrap;
 }
 
@@ -854,7 +853,7 @@ figcaption i
 	display: flex;
 	justify-content: flex-start;
 	font-family:Roboto-Bold;
-	font-size: 70px;
+	font-size: 4.5em;
 }
 
 
@@ -863,33 +862,31 @@ figcaption i
 #lagencedetous
 {
 font-family: Roboto-Bold;
-font-size: 70px;
-color:#00BFFF;
+font-size: 4.5em;
+color: black;
 }
 
 #vosprojects
 {
 font-family: Roboto-Bold;
-font-size: 70px;
-color: #00BFFF;
+font-size: 4.5em;
+color: black;
 display: flex;
 align-items: flex-end;
 
 }
 
-
 #vousavezunproject
 {
-font-size: 26px;
+font-size: 1.65em;
 font-family: Roboto-Medium;
-color: #00BFFF;
+color: black;
 
 }
 
 #conteneurboutoninfo
 {
 	width: 100%;
-	border: 5px solid silver;
 	justify-content: center;
 	align-items: center;
 }                                                    
@@ -905,15 +902,11 @@ color: #00BFFF;
   justify-content:  center;
   align-items: center;
   font-family: Roboto-medium;
-  font-size: 21px;
+  font-size: 1.5em;
   position: static;
   z-index: -1;
   left: 350px;
-  top: 710px;
-  border: 5px solid brown;
-
-  
-  
+  top: 710px;  
 }
 
 .partial-circle 
@@ -955,7 +948,7 @@ color: #00BFFF;
 #Servicestitre
 {
 	font-family:Roboto-Bold;
-	font-size: 80px;
+	font-size: 5em;
     display: flex;
 	justify-content: center;
 }
@@ -974,7 +967,7 @@ color: #00BFFF;
 #phrasenosservices_haut
 {
 	 font-family:Roboto-Medium;
-	font-size: 30px;
+	font-size: 1.8em;
 	display: flex;
 	justify-content: center;
 	
@@ -983,7 +976,7 @@ color: #00BFFF;
 #phrasenosservices_bas
 {
 	 font-family:Roboto-Medium;
-	font-size: 30px;
+	font-size: 1.8em;
 	display: flex;
 	justify-content: center;
 	
@@ -1004,7 +997,7 @@ color: #00BFFF;
 	height: 0px;
 }
 
-#qualités_siteclient
+#boutonsservices
 {
 
 	height: 1500px;
@@ -1015,7 +1008,7 @@ color: #00BFFF;
 	width: 90%;
 }
 
-.chaquequalité_siteclient
+.chaque_boutonsservices
 {
 	display: flex;
 	align-items: center;
@@ -1038,7 +1031,7 @@ color: #00BFFF;
 .boutonservice i
 {
 	font-size: 55px;
-	color: #007bff;
+	color: #00BFFF;
 	padding: 20px;
 }
  
@@ -1053,9 +1046,9 @@ color: #00BFFF;
 }
 
 
-.titre_qualitédusiteclient
+.titredesboutonsservices
 {
-  font-size: 44px;
+  font-size: 2.7em;
   display: flex;
   justify-content: center;
 }
@@ -1066,9 +1059,9 @@ color: #00BFFF;
 }
 
 
-.texte_qualitédusiteclient
+.texte_desboutonsservices
 {
-	font-size: 35px;
+	font-size: 2em;
 	display: flex;
 	justify-content: center;
 }
@@ -1085,7 +1078,7 @@ color: #00BFFF;
 
 #nosprojects_titre
 {
-	font-size: 80px;
+	font-size: 5em;
 }
 
 #espace_titreetconstruction
@@ -1114,19 +1107,19 @@ color: #00BFFF;
 
 #phraseprojet_haut
 {
-font-size: 30px;	
+font-size: 1.7em;	
 }
 
 #phraseprojet_bas
 {
-font-size: 30px;	
+font-size: 1.7em;	
 }
 
 .boutonprojet_individuel 
 {
   height:60px;
   width:136px;
-  font-size: 24px;
+  font-size: 2.3em;
  }
 
  .triangle
@@ -1144,7 +1137,6 @@ font-size: 30px;
 #imageprojet
 {
 	height: auto;
-	border: red solid 5px;
 }
 
 
@@ -1181,7 +1173,7 @@ font-size: 30px;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     z-index: 10;
-    font-size: 28px;
+    font-size: 2em;
     opacity: 1;
 }
 
@@ -1198,7 +1190,6 @@ figcaption i
 	color: white;
 	border-radius: 50%;
 	padding: 7px;
-	border: white solid 1px;
 	margin-top: -230px;
 	margin-left:400px;
 	font-size: 40px;
@@ -1217,7 +1208,7 @@ figcaption i
 
 #titre_nouscontacter
 {
-	font-size: 70px;
+	font-size: 5em;
 	top: 50px;
 }
 
@@ -1232,7 +1223,7 @@ iframe
     
 {
   width: 100%;
-  height:  600px;
+  height: 600px;
 }
 
 #grandparent_leformulaire
@@ -1248,7 +1239,7 @@ iframe
 {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 	width: 100%;
 	height: 100%;
 
@@ -1272,17 +1263,15 @@ iframe
 
 #Contactinfo
 {
-	border: 5px solid blue;
 	height: 45px;
 	display: flex;
 	align-items: center;
-	font-size: 33px;
+	font-size: 2.5em;
 	justify-content: center;
 }
 
 #formulaireinfo_sauftitre
 {
-	border: solid green 5px;
 	height: 105px;
 	display: flex;
 	justify-content: center;
@@ -1291,18 +1280,17 @@ iframe
 
 #WebagencySAS
 {
-	font-size: 25px;
+	font-size: 1.8em;
 }
 
 .formulaireinfo_adressetnumtel
 {
-	font-size: 25px;
+	font-size: 2em;
 }
 
 
 #conteneurformulaire_remplissage
 {
-	border: 5px solid yellow;
 	height: 750px;
 }
 
@@ -1311,7 +1299,6 @@ iframe
 	width: auto;
 	align-items: center;
 	height: 450px;
-	border: brown solid 5px;
 }
 
 #formulaire_remplissage form
@@ -1324,13 +1311,12 @@ iframe
    height: 350px;
    padding-left: 15px;
    padding-right: 15px;
-   border: blue solid 5px;
    margin: 0px;
 }
 
 #formulaire_remplissage input
 {
-	font-size: 22px;
+	font-size: 1.9em;
 	width: 100%;
 }
 
@@ -1352,13 +1338,9 @@ iframe
   justify-content:  center;
   align-items: center;
   font-family: Roboto-medium;
-  font-size: 24px;
+  font-size: 1.5em;
   position:static;
-  border: 5px solid red;
 }
-
-
-
 
 }
 
