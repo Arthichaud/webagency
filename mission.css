@@ -370,7 +370,7 @@ color: white
 	color: #00BFFF;
   	border-radius:50%;
   	border: black solid 1px;
-  	padding:5px;
+  	padding:7px;
 
 }
 
@@ -627,7 +627,7 @@ figcaption i
 	border: white solid 1px;
 	margin-top: -50px;
 	font-size: 0.9em;
-	background-color: #00BFFF;
+	background-color: #00BFFF; 
 }
 
 
@@ -887,7 +887,7 @@ color: black;
 #conteneurboutoninfo
 {
 	width: 100%;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 }                                                    
 
@@ -904,9 +904,7 @@ color: black;
   font-family: Roboto-medium;
   font-size: 1.5em;
   position: static;
-  z-index: -1;
-  left: 350px;
-  top: 710px;  
+  margin:50px;
 }
 
 .partial-circle 
